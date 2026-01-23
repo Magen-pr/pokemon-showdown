@@ -10993,7 +10993,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	alomomola: {
 		num: 594,
 		name: "Alomomola",
-		types: ["Fire"],
+		types: ["Water"],
 		baseStats: { hp: 165, atk: 75, def: 80, spa: 40, spd: 45, spe: 65 },
 		abilities: { 0: "Healer", 1: "Hydration", H: "Regenerator" },
 		heightm: 1.2,
