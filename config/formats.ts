@@ -18,7 +18,19 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: import('../sim/dex-formats').FormatList = [
-
+    // Pokemon Añil
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Pokemon Añil",
+	},
+	{
+		name: "[Gen 9] Singles",
+		desc: "Formato individual para Pokemon Añil.",
+		mod: "gen9",
+		ruleset: ['OHKO Clause', 'Team Preview', 'Item Clause = 1', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
+		minSourceGen: 0,
+		// banlist: ["CAP", "Custom", "Future", "LGPE", "MissingNo.", "Pikachu-Cosplay", "Pichu-Spiky-eared", "Xerneas-Neutral"], No queremos BANLIST
+	},
 	// Likeshop Spotlight
 	///////////////////////////////////////////////////////////////////
 

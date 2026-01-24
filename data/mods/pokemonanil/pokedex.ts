@@ -1,0 +1,291 @@
+export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
+	// Si quiero cambiar:
+		// inherit: true, HEREDAR CAMBIOS. Es decir, si pongo eso al principio la especie coge todo de la especie origen de data/pokedex.ts. Luego puedo modificar cosas a continuación
+		// Tipos: types: ['Tipo1', 'Tipo2', ...],
+		// Stats base: baseStats: { hp: X, atk: X, def: X, spa: X, spd: X, spe: X, },
+		// Habilidad: abilities: {0: 'nueva', 1: 'vieja'},
+	bayleef: {  
+		inherit: true,
+		types: ['Grass', 'Fairy'],
+	},
+	meganium: {  
+		inherit: true,
+		types: ['Grass', 'Fairy'],
+		baseStats: {
+            hp: 80,
+            atk: 82,
+            def: 100,
+            spa: 90,
+            spd: 100,
+            spe: 80,
+        },
+	},
+	typhlosion: {
+		inherit: true,
+		types: ['Fire','Normal'],
+		baseStats: {
+            hp: 78,
+            atk: 74,
+            def: 78,
+            spa: 109,
+            spd: 85,
+            spe: 110,
+        },
+	},
+	serperior: {
+		inherit: true,
+		types: ['Grass','Psychic'],
+		baseStats: {
+            hp: 75,
+            atk: 85,
+            def: 95,
+            spa: 85,
+            spd: 95,
+            spe: 113,
+        },
+	},
+	lopunny: {
+		inherit: true,
+		types: ['Normal','Fighting'],
+		baseStats: {
+            hp: 65,
+            atk: 106,
+            def: 84,
+            spa: 54,
+            spd: 96,
+            spe: 105,
+        },
+	},
+	vanillite: {  
+		inherit: true,
+		types: ['Ice', 'Fairy'],
+	},
+	vanillish: {  
+		inherit: true,
+		types: ['Ice', 'Fairy'],
+	},
+	vanilluxe: {  
+		inherit: true,
+		types: ['Ice', 'Fairy'],
+	},
+	swablu: {
+        inherit: true,  // Hereda de Swablu
+        baseStats: {    // Cambia stats base por stats custom de Añil
+            hp: 45,
+            atk: 60,
+            def: 60,
+            spa: 60,
+            spd: 75,
+            spe: 50,
+        },
+    },
+	bibarel: {
+        inherit: true,
+        baseStats: {
+            hp: 90,
+            atk: 85,
+            def: 70,
+            spa: 70,
+            spd: 80,
+            spe: 71,
+        },
+    },
+	luxio: {
+        inherit: true,
+        baseStats: {
+            hp: 60,
+            atk: 85,
+            def: 49,
+            spa: 65,
+            spd: 49,
+            spe: 80,
+        },
+    },
+	servine: {
+        inherit: true,
+        baseStats: {
+            hp: 60,
+            atk: 70,
+            def: 75,
+            spa: 70,
+            spd: 75,
+            spe: 83,
+        },
+    },
+	dustox: {
+        inherit: true,
+        baseStats: {
+            hp: 70,
+            atk: 50,
+            def: 70,
+            spa: 90,
+            spd: 105,
+            spe: 85,
+        },
+    },
+	nuzleaf: {
+        inherit: true,
+        baseStats: {
+            hp: 70,
+            atk: 70,
+            def: 50,
+            spa: 60,
+            spd: 50,
+            spe: 90,
+        },
+    },
+	thwackey: {
+        inherit: true,
+        baseStats: {
+            hp: 70,
+            atk: 95,
+            def: 70,
+            spa: 55,
+            spd: 60,
+            spe: 80,
+        },
+    },
+	shiftry: {
+        inherit: true,
+        baseStats: {
+            hp: 90,
+            atk: 110,
+            def: 60,
+            spa: 95,
+            spd: 60,
+            spe: 90,
+        },
+    },
+	luxray: {
+        inherit: true,
+        baseStats: {
+            hp: 80,
+            atk: 120,
+            def: 75,
+            spa: 75,
+            spd: 75,
+            spe: 100,
+        },
+    },
+	corsola: {
+        inherit: true,
+        baseStats: {
+            hp: 85,
+            atk: 85,
+            def: 85,
+            spa: 95,
+            spd: 85,
+            spe: 35,
+        },
+    },
+	squawkabilly: {
+        inherit: true,
+        baseStats: {
+            hp: 82,
+            atk: 106,
+            def: 51,
+            spa: 45,
+            spd: 61,
+            spe: 102,
+        },
+    },
+	squawkabillyblue: {
+        inherit: true,
+        baseStats: {
+            hp: 82,
+            atk: 106,
+            def: 51,
+            spa: 45,
+            spd: 61,
+            spe: 102,
+        },
+    },
+	squawkabillyyellow: {
+        inherit: true,
+        baseStats: {
+            hp: 82,
+            atk: 106,
+            def: 51,
+            spa: 45,
+            spd: 61,
+            spe: 102,
+        },
+    },
+	squawkabillywhite: {
+        inherit: true,
+        baseStats: {
+            hp: 82,
+            atk: 106,
+            def: 51,
+            spa: 45,
+            spd: 61,
+            spe: 102,
+        },
+    },
+	beheeyem: {
+        inherit: true,
+        baseStats: {
+            hp: 75,
+            atk: 75,
+            def: 85,
+            spa: 125,
+            spd: 95,
+            spe: 40,
+        },
+    },
+	chesnaught: {
+        inherit: true,
+        baseStats: {
+            hp: 100,
+            atk: 117,
+            def: 122,
+            spa: 64,
+            spd: 75,
+            spe: 64,
+        },
+    },
+	brambleghast: {
+        inherit: true,
+        baseStats: {
+            hp: 55,
+            atk: 115,
+            def: 80,
+            spa: 80,
+            spd: 70,
+            spe: 100,
+        },
+    },
+	wigglytuff: {
+        inherit: true,
+        baseStats: {
+            hp: 140,
+            atk: 65,
+            def: 60,
+            spa: 85,
+            spd: 60,
+            spe: 45,
+        },
+    },
+	seismitoad: {
+        inherit: true,
+        baseStats: {
+            hp: 105,
+            atk: 95,
+            def: 75,
+            spa: 90,
+            spd: 75,
+            spe: 74,
+        },
+    },
+	rillaboom: {
+        inherit: true,
+        baseStats: {
+            hp: 100,
+            atk: 125,
+            def: 90,
+            spa: 60,
+            spd: 70,
+            spe: 86,
+        },
+    },
+};
