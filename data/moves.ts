@@ -6407,7 +6407,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	freezedry: {
 		num: 573,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 80,
 		category: "Special",
 		name: "Freeze-Dry",
 		pp: 20,

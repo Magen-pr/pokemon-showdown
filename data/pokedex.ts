@@ -1289,7 +1289,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 51,
 		name: "Dugtrio",
 		types: ["Ground"],
-		baseStats: { hp: 35, atk: 100, def: 50, spa: 50, spd: 70, spe: 120 },
+		baseStats: { hp: 65, atk: 100, def: 70, spa: 50, spd: 70, spe: 120 },
 		abilities: { 0: "Sand Veil", 1: "Arena Trap", H: "Sand Force" },
 		heightm: 0.7,
 		weightkg: 33.3,

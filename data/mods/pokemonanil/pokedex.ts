@@ -321,4 +321,15 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
             spe: 35,
         },
     },
+    dugtrio: {
+        inherit: true,
+        baseStats: {
+            hp: 65,
+            atk: 100,
+            def: 70,
+            spa: 50,
+            spd: 70,
+            spe: 120,
+        },
+    },
 };
