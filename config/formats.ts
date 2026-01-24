@@ -41,7 +41,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['[Gen 9] 1v1'],
 	},
 	{
-		name: "[Gen 9] Singles",
+		name: "[Gen 9] Pokemon Anil",
 		desc: "Formato individual para Pokemon Añil.",
 		mod: "gen9",
 		ruleset: ['OHKO Clause', 'Team Preview', 'Item Clause = 1', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],

@@ -288,4 +288,37 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
             spe: 86,
         },
     },
+    altariamega: {
+        inherit: true,
+        baseStats: {
+            hp: 75,
+            atk: 110,
+            def: 110,
+            spa: 120,
+            spd: 105,
+            spe: 90,
+        },
+    },
+    steelix: {
+        inherit: true,
+        baseStats: {
+            hp: 75,
+            atk: 100,
+            def: 200,
+            spa: 55,
+            spd: 65,
+            spe: 30,
+        },
+    },
+    spiritomb: {
+        inherit: true,
+        baseStats: {
+            hp: 60,
+            atk: 92,
+            def: 108,
+            spa: 92,
+            spd: 108,
+            spe: 35,
+        },
+    },
 };

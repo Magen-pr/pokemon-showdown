@@ -18,6 +18,46 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	// Custom Moves
+	deslizamiento: {
+		num: 10002,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Deslizamiento",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		breaksProtect: false,
+		target: "normal",
+		type: "Ice",
+		contestType: "Cool",
+	},
+	escalofrio: {
+		num: 12001,
+		accuracy: 85,
+		basePower: 0,
+		category: "Status",
+		name: "Escalofrio",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		status: 'frz',
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+		zMove: { boost: { atk: 1 } },
+		contestType: "Beautiful",
+	},
+	//End Custom Moves
 	absorb: {
 		num: 71,
 		accuracy: 100,
@@ -528,7 +568,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	aquatail: {
 		num: 401,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 90,
 		category: "Physical",
 		name: "Aqua Tail",
@@ -1806,7 +1846,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	bouncybubble: {
 		num: 733,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 90,
 		category: "Special",
 		isNonstandard: "LGPE",
 		name: "Bouncy Bubble",
@@ -3424,7 +3464,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	cut: {
 		num: 15,
 		accuracy: 95,
-		basePower: 50,
+		basePower: 65,
 		category: "Physical",
 		isNonstandard: "Unobtainable",
 		name: "Cut",
@@ -3433,7 +3473,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Steel",
 		contestType: "Cool",
 	},
 	darkestlariat: {
@@ -3479,14 +3519,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1, nosketch: 1 },
 		status: 'slp',
-		onTry(source, target, move) {
-			if (source.species.baseSpecies === 'Darkrai' || move.hasBounced) {
-				return;
-			}
-			this.add('-fail', source, 'move: Dark Void');
-			this.hint("Only a Pokemon whose form is Darkrai can use this move.");
-			return null;
-		},
 		secondary: null,
 		target: "allAdjacentFoes",
 		type: "Dark",
@@ -4375,7 +4407,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	drainingkiss: {
 		num: 577,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 60,
 		category: "Special",
 		name: "Draining Kiss",
 		pp: 10,
@@ -6102,8 +6134,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	fly: {
 		num: 19,
-		accuracy: 95,
-		basePower: 90,
+		accuracy: 100,
+		basePower: 100,
 		category: "Physical",
 		name: "Fly",
 		pp: 15,
@@ -13631,7 +13663,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	paraboliccharge: {
 		num: 570,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 70,
 		category: "Special",
 		name: "Parabolic Charge",
 		pp: 20,
@@ -17606,7 +17638,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	smackdown: {
 		num: 479,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 60,
 		category: "Physical",
 		name: "Smack Down",
 		pp: 15,
@@ -22037,21 +22069,15 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	zippyzap: {
 		num: 729,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 50,
 		category: "Physical",
 		isNonstandard: "LGPE",
 		name: "Zippy Zap",
-		pp: 10,
+		pp: 15,
 		priority: 2,
 		flags: { contact: 1, protect: 1, mirror: 1 },
-		secondary: {
-			chance: 100,
-			self: {
-				boosts: {
-					evasion: 1,
-				},
-			},
-		},
+		willCrit: true,
+		secondary: null,
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",

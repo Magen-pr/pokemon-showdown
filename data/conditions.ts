@@ -82,6 +82,14 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 	},
 	frz: {
 		name: 'frz',
+		/*
+		start: "  [Pokemon] was chilled!",
+		alreadyStarted: "  [POKEMON] is already chilled!",
+		end: "  [POKEMON] warmed up!",
+		endFromItem: "  [POKEMON]'s [ITEM] warmed it up!",
+		endFromMove: "  [POKEMON]'s [MOVE] warmed it up!",
+		cant: "[POKEMON] is chilled!",
+		*/
 		effectType: 'Status',
 		onStart(target, source, sourceEffect) {
 			if (sourceEffect && sourceEffect.effectType === 'Ability') {
@@ -89,35 +97,13 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			} else {
 				this.add('-status', target, 'frz');
 			}
-			if (target.species.name === 'Shaymin-Sky' && target.baseSpecies.baseSpecies === 'Shaymin') {
-				target.formeChange('Shaymin', this.effect, true);
-			}
 		},
-		onBeforeMovePriority: 10,
-		onBeforeMove(pokemon, target, move) {
-			if (move.flags['defrost'] && !(move.id === 'burnup' && !pokemon.hasType('Fire'))) return;
-			if (this.randomChance(1, 5)) {
-				pokemon.cureStatus();
-				return;
-			}
-			this.add('cant', pokemon, 'frz');
-			return false;
+		onResidualOrder: 9,
+		onResidual(pokemon) {
+			this.damage(pokemon.baseMaxhp / 16);
 		},
-		onModifyMove(move, pokemon) {
-			if (move.flags['defrost']) {
-				this.add('-curestatus', pokemon, 'frz', `[from] move: ${move}`);
-				pokemon.clearStatus();
-			}
-		},
-		onAfterMoveSecondary(target, source, move) {
-			if (move.thawsTarget) {
-				target.cureStatus();
-			}
-		},
-		onDamagingHit(damage, target, source, move) {
-			if (move.type === 'Fire' && move.category !== 'Status' && move.id !== 'polarflare') {
-				target.cureStatus();
-			}
+		onModifySpA(spa, pokemon) {
+			return this.chainModify(0.5);
 		},
 	},
 	psn: {
