@@ -569,7 +569,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	aquatail: {
 		num: 401,
 		accuracy: 95,
-		basePower: 90,
+		basePower: 95,
 		category: "Physical",
 		name: "Aqua Tail",
 		pp: 10,
@@ -1520,7 +1520,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	blazekick: {
 		num: 299,
 		accuracy: 90,
-		basePower: 85,
+		basePower: 90,
 		category: "Physical",
 		name: "Blaze Kick",
 		pp: 10,
@@ -12140,7 +12140,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	metalclaw: {
 		num: 232,
 		accuracy: 95,
-		basePower: 50,
+		basePower: 60,
 		category: "Physical",
 		name: "Metal Claw",
 		pp: 35,
@@ -12221,7 +12221,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	meteormash: {
 		num: 309,
 		accuracy: 90,
-		basePower: 90,
+		basePower: 100,
 		category: "Physical",
 		name: "Meteor Mash",
 		pp: 10,
