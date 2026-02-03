@@ -383,4 +383,48 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		requiredItem: "Skarmorite",
 		gen: 9,
 	},
+    scolipede: {
+        inherit: true,
+        baseStats: {
+            hp: 69,
+            atk: 100,
+            def: 89,
+            spa: 55,
+            spd: 69,
+            spe: 112,
+        },
+    },
+    scolipedemega: {
+        inherit: true,
+        baseStats: {
+            hp: 69,
+            atk: 140,
+            def: 149,
+            spa: 75,
+            spd: 99,
+            spe: 62,
+        },
+    },
+    abomasnow: {
+        inherit: true,
+        baseStats: {
+            hp: 90,
+            atk: 92,
+            def: 85,
+            spa: 92,
+            spd: 95,
+            spe: 60,
+        },
+    },
+    slowbrogalar: {
+        inherit: true,
+        baseStats: {
+            hp: 95,
+            atk: 65,
+            def: 80,
+            spa: 110,
+            spd: 110,
+            spe: 30,
+        },
+    },
 };

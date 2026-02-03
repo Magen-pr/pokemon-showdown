@@ -2233,11 +2233,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	buzzybuzz: {
 		num: 734,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 90,
 		category: "Special",
 		isNonstandard: "LGPE",
 		name: "Buzzy Buzz",
-		pp: 20,
+		pp: 15,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
 		secondary: {
@@ -16732,7 +16732,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	shadowpunch: {
 		num: 325,
 		accuracy: true,
-		basePower: 60,
+		basePower: 75,
 		category: "Physical",
 		name: "Shadow Punch",
 		pp: 20,
