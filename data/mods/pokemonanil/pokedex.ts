@@ -427,4 +427,15 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
             spe: 30,
         },
     },
+    sharpedo: { 
+        inherit: true,
+        baseStats: {
+            hp: 70,
+            atk: 120,
+            def: 50,
+            spa: 90,
+            spd: 50,
+            spe: 100,
+        },
+    },
 };
