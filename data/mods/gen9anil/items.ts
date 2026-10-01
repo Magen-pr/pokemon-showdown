@@ -31,7 +31,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10122,
+		num: 10120,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alcremie en combate.",
 	},
@@ -107,7 +107,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10119,
+		num: 10117,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Centiskorch en combate.",
 	},
@@ -139,7 +139,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10128,
+		num: 10126,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Cinderace en combate.",
 	},
@@ -167,7 +167,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10123,
+		num: 10121,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Copperajah en combate.",
 	},
@@ -243,7 +243,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10124,
+		num: 10122,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Duraludon en combate.",
 	},
@@ -260,12 +260,12 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	eeveeita: {
 		name: "Eeveeita",
 		spritenum: 608,
-		megaStone: { Eevee: "Eevee-Mega" },
+		megaStone: { "Eevee-Starter": "Eevee-Starter-Mega" },
 		itemUser: ["Eevee"],
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10125,
+		num: 10123,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eevee en combate.",
 	},
@@ -300,12 +300,12 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	flappletunita: {
 		name: "Flappletunita",
 		spritenum: 608,
-		megaStone: { Appletun: "Appletun-Mega" },
-		itemUser: ["Appletun"],
+		megaStone: { Flapple: "Flapple-Mega", Appletun: "Appletun-Mega" },
+		itemUser: ["Flapple"],
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10115,
+		num: 10114,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Flapple y Appletun en combate.",
 	},
@@ -397,7 +397,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10121,
+		num: 10119,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Grimmsnarl en combate.",
 	},
@@ -413,7 +413,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10120,
+		num: 10118,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Hatterene en combate.",
 	},
@@ -453,7 +453,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10129,
+		num: 10127,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Inteleon en combate.",
 	},
@@ -471,7 +471,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10126,
+		num: 10124,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Jumpluff en combate.",
 	},
@@ -545,18 +545,6 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 10107,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Machamp en combate.",
-	},
-	magearnita: {
-		name: "Magearnita",
-		spritenum: 509,
-		megaStone: { Magearna: "Magearna-Mega" },
-		itemUser: ["Magearna"],
-		onTakeItem(item, source) {
-			return !item.megaStone?.[source.baseSpecies.baseSpecies];
-		},
-		num: 10131,
-		gen: 9,
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Magearna en combate.",
 	},
 	magearnite: {
 		inherit: true,
@@ -668,7 +656,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10127,
+		num: 10125,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Rillaboom en combate.",
 	},
@@ -688,7 +676,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10116,
+		num: 10115,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sandaconda en combate.",
 	},
@@ -738,7 +726,7 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10130,
+		num: 10128,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Snorlax en combate.",
 	},
@@ -831,18 +819,6 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	tatsugirita: {
-		name: "Tatsugirita",
-		spritenum: 513,
-		megaStone: { Tatsugiri: "Tatsugiri-Mega" },
-		itemUser: ["Tatsugiri"],
-		onTakeItem(item, source) {
-			return !item.megaStone?.[source.baseSpecies.baseSpecies];
-		},
-		num: 10133,
-		gen: 9,
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Tatsugiri en combate.",
-	},
 	toxicplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
@@ -852,12 +828,12 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	toxtricitita: {
 		name: "Toxtricitita",
 		spritenum: 608,
-		megaStone: { Toxtricity: "Toxtricity-Mega" },
+		megaStone: { Toxtricity: "Toxtricity-Mega", "Toxtricity-Low-Key": "Toxtricity-Low-Key-Mega" },
 		itemUser: ["Toxtricity"],
 		onTakeItem(item, source) {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
-		num: 10118,
+		num: 10116,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Toxtricity en combate.",
 	},

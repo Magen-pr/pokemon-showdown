@@ -167,7 +167,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		inherit: true,
 		natDexTier: "OU",
 	},
-	eeveemega: {
+	eeveestartermega: {
 		tier: "OU",
 		natDexTier: "OU",
 	},
@@ -321,7 +321,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	magearnamega: {
 		inherit: true,
-		tier: "OU",
+		natDexTier: "OU",
+	},
+	magearnaoriginalmega: {
+		inherit: true,
 		natDexTier: "OU",
 	},
 	malamarmega: {
@@ -468,7 +471,15 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		inherit: true,
 		natDexTier: "OU",
 	},
-	tatsugirimega: {
+	tatsugiridroopymega: {
+		inherit: true,
+		natDexTier: "OU",
+	},
+	tatsugiristretchymega: {
+		inherit: true,
+		natDexTier: "OU",
+	},
+	toxtricitylowkeymega: {
 		tier: "OU",
 		natDexTier: "OU",
 	},
