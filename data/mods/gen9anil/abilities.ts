@@ -20,10 +20,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			if (pokemon.abilityState.firstTurn) return this.chainModify(1.5);
 		},
 		flags: {},
+		shortDesc: "Durante su primer turno en combate, aumenta un 50% su Velocidad y un 30% su Ataque y su Ataque Especial.",
 		name: "Acometida",
 		rating: 2.5,
 		num: 10001,
-		shortDesc: "En el 1ºturno que salga a combatir, tendrá un 50% extra de Velocidad y un 20% extra de Ataque.",
 	},
 	adrenalineorb: {
 		inherit: true,
@@ -197,10 +197,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			if (['snowscape', 'hail'].includes(pokemon.effectiveWeather())) return this.chainModify(2);
 		},
 		flags: {},
+		shortDesc: "Duplica su Velocidad cuando nieva.",
 		name: "Poder Gélido",
 		rating: 3,
 		num: 10005,
-		shortDesc: "Aumenta el poder de hielo y la velocidad un 50% en clima nevado.",
 	},
 	podersabio: {
 		onStart(pokemon) {

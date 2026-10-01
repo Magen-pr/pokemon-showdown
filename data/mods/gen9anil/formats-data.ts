@@ -371,6 +371,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		inherit: true,
 		natDexTier: "OU",
 	},
+	pikachuamarillo: {
+		tier: "OU",
+		natDexTier: "OU",
+	},
 	pikachumega: {
 		tier: "OU",
 		natDexTier: "OU",

@@ -760,40 +760,44 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 			if (move && move.type === 'Rock') return this.chainModify([5120, 4096]);
 		},
 	},
-	superminevol: {
-		name: "Supermin. Evol.",
+	supermineralevolutivo: {
+		name: "Supermineral Evolutivo",
 		spritenum: 130,
 		fling: {
 			basePower: 40,
 		},
-		// species with more than one evolution entry in Añil's data
-		itemUser: [
-			"Gloom", "Poliwhirl", "Kadabra", "Machoke", "Graveler", "Slowpoke", "Haunter", "Onix", "Rhydon", "Seadra",
-			"Scyther", "Electabuzz", "Magmar", "Eevee", "Porygon", "Porygon2", "Tyrogue", "Wurmple", "Kirlia", "Nincada",
-			"Feebas", "Dusclops", "Snorunt", "Clamperl", "Burmy", "Karrablast", "Shelmet", "Spritzee", "Swirlix", "Cosmoem",
-			"Applin", "Kubfu", "Charcadet",
-		],
 		onModifyAtkPriority: 2,
 		onModifyAtk(atk, pokemon) {
-			if ((this.effect as Item).itemUser!.includes(pokemon.baseSpecies.baseSpecies)) return this.chainModify(1.5);
+			if (pokemon.baseSpecies.evos.some(evo => this.dex.species.get(evo).nfe)) {
+				return this.chainModify(1.5);
+			}
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			if ((this.effect as Item).itemUser!.includes(pokemon.baseSpecies.baseSpecies)) return this.chainModify(1.5);
+			if (pokemon.baseSpecies.evos.some(evo => this.dex.species.get(evo).nfe)) {
+				return this.chainModify(1.5);
+			}
 		},
 		onModifySpAPriority: 2,
 		onModifySpA(spa, pokemon) {
-			if ((this.effect as Item).itemUser!.includes(pokemon.baseSpecies.baseSpecies)) return this.chainModify(1.5);
+			if (pokemon.baseSpecies.evos.some(evo => this.dex.species.get(evo).nfe)) {
+				return this.chainModify(1.5);
+			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			if ((this.effect as Item).itemUser!.includes(pokemon.baseSpecies.baseSpecies)) return this.chainModify(1.5);
+			if (pokemon.baseSpecies.evos.some(evo => this.dex.species.get(evo).nfe)) {
+				return this.chainModify(1.5);
+			}
 		},
 		onModifySpe(spe, pokemon) {
-			if ((this.effect as Item).itemUser!.includes(pokemon.baseSpecies.baseSpecies)) return this.chainModify(1.5);
+			if (pokemon.baseSpecies.evos.some(evo => this.dex.species.get(evo).nfe)) {
+				return this.chainModify(1.5);
+			}
 		},
 		num: 10001,
 		gen: 9,
+		shortDesc: "Si lo lleva un Pokémon que aún puede evolucionar dos veces, aumenta un 50% su Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad.",
 	},
 	swampertite: {
 		inherit: true,

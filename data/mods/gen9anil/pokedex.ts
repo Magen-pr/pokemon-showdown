@@ -237,10 +237,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Reckless", 1: "Adaptability", H: "Mold Breaker" },
 	},
-	basculinwhitestriped: {
-		inherit: true,
-		abilities: { 0: "Reckless", 1: "Adaptability", H: "Mold Breaker" },
-	},
 	bastiodon: {
 		inherit: true,
 		baseStats: { hp: 70, atk: 52, def: 168, spa: 47, spd: 138, spe: 30 },
@@ -702,9 +698,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		isNonstandard: null,
 	},
-	darmanitangalarzen: {
+	darmanitangalar: {
 		inherit: true,
-		abilities: { 0: "Gorilla Tactics", H: "Zen Mode" },
+		baseStats: { hp: 105, atk: 160, def: 55, spa: 30, spd: 55, spe: 135 },
+		types: ["Ice", "Fire"],
 	},
 	darmanitanzen: {
 		inherit: true,
@@ -1387,19 +1384,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Frisk", 1: "Competitive", H: "Espanto" },
 	},
-	gourgeist: {
-		inherit: true,
-		baseStats: { hp: 85, atk: 100, def: 122, spa: 58, spd: 75, spe: 54 },
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
-	},
 	gourgeistlarge: {
 		inherit: true,
 		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 	},
 	gourgeistsmall: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 		baseStats: { hp: 65, atk: 90, def: 122, spa: 58, spd: 75, spe: 84 },
+		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 	},
 	gourgeistsuper: {
 		inherit: true,
@@ -2061,34 +2053,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 55, atk: 105, def: 80, spa: 50, spd: 105, spe: 96 },
 	},
-	minior: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	miniorblue: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	miniorgreen: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	miniorindigo: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	miniororange: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	miniorviolet: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
-	minioryellow: {
-		inherit: true,
-		baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-	},
 	minun: {
 		inherit: true,
 		baseStats: { hp: 60, atk: 40, def: 50, spa: 75, spd: 105, spe: 95 },
@@ -2294,13 +2258,27 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachu: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Mega"],
-		formeOrder: ["Pikachu", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Cosplay", "Pikachu-Mega"],
+		otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Amarillo", "Pikachu-Mega"],
+		formeOrder: ["Pikachu", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Cosplay", "Pikachu-Amarillo", "Pikachu-Mega"],
 	},
 	pikachualola: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
 		abilities: { 0: "Lightning Rod" },
+	},
+	pikachuamarillo: {
+		num: 25,
+		name: "Pikachu-Amarillo",
+		baseSpecies: "Pikachu",
+		forme: "Amarillo",
+		types: ["Electric"],
+		genderRatio: { M: 0.5, F: 0.5 },
+		baseStats: { hp: 55, atk: 75, def: 50, spa: 70, spd: 60, spe: 110 },
+		abilities: { 0: "Sobrecarga" },
+		heightm: 0.4,
+		weightkg: 6,
+		color: "Yellow",
+		eggGroups: ["Field", "Fairy"],
 	},
 	pikachubelle: {
 		inherit: true,
@@ -2414,19 +2392,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 60, atk: 52, def: 48, spa: 65, spd: 50, spe: 55 },
 		abilities: { 0: "Swift Swim", 1: "Cloud Nine", H: "Berserk" },
 	},
-	pumpkaboo: {
-		inherit: true,
-		baseStats: { hp: 59, atk: 66, def: 70, spa: 44, spd: 55, spe: 41 },
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
-	},
 	pumpkaboolarge: {
 		inherit: true,
 		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 	},
 	pumpkaboosmall: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 		baseStats: { hp: 49, atk: 66, def: 70, spa: 44, spd: 55, spe: 51 },
+		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
 	},
 	pumpkaboosuper: {
 		inherit: true,
@@ -3669,7 +3642,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	zygarde10: {
 		inherit: true,
 		abilities: { 0: "Power Construct" },
-		baseStats: { hp: 216, atk: 100, def: 121, spa: 91, spd: 95, spe: 85 },
 	},
 	zygardemega: {
 		inherit: true,
