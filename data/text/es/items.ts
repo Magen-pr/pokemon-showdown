@@ -8,53 +8,53 @@
 export const ItemsText: { [id: IDEntry]: ItemText } = {
 	abilityshield: {
 		name: "Escudo Habilidad",
-		shortDesc: "Escudo muy bonito que impide que otros Pokémon cambien la habilidad del Pokémon que lo lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		block: "  ¡El Escudo Habilidad ha protegido la habilidad de {POKEMON}!",
 	},
 	abomasite: {
-		name: "Abomasnowita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Abomasnow en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	absolite: {
-		name: "Absolita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Absol en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	absolitez: {
-		name: "Absolita Z",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Absol en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	absorbbulb: {
 		name: "Tubérculo",
-		shortDesc: "Raíz de usar y tirar que sube el Ataque Especial cuando se recibe un ataque de tipo Agua.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	adamantcrystal: {
 		name: "Gran Diamansfera",
-		shortDesc: "Si se usa en Dialga, esta gran gema le hace cambiar de forma.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	adamantorb: {
 		name: "Diamansfera",
-		shortDesc: "Una esfera brillante que potencia los ataques de tipo Acero y Dragón. Debe llevarla Dialga.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	adrenalineorb: {
 		name: "Nerviosfera",
-		shortDesc: "Si lo lleva un Pokémon, sube la Velocidad al ser intimidado. De un solo uso.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	aerodactylite: {
-		name: "Aerodactylita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Aerodactyl en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	aggronite: {
-		name: "Aggronita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Aggron en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	aguavberry: {
 		name: "Baya Guaya",
-		shortDesc: "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -64,159 +64,159 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	airballoon: {
 		name: "Globo Helio",
-		shortDesc: "El Pokémon que lo lleve flotará en el aire. Si recibe un golpe, estallará.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		start: "  ¡{POKEMON} está flotando con un Globo Helio!",
 		end: "  ¡Ha explotado el Globo Helio de {POKEMON}!",
 	},
 	alakazite: {
-		name: "Alakazamita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alakazam en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	aloraichiumz: {
 		name: "Alo-Raistal Z",
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	altarianite: {
-		name: "Altarianita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Altaria en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ampharosite: {
-		name: "Ampharosita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Ampharos en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	apicotberry: {
 		name: "Baya Aricoc",
-		shortDesc: "Si la lleva un Pokémon, le subirá la Def. Esp. en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	armorfossil: {
 		name: "Fósil Coraza",
-		shortDesc: "Fósil de un Pokémon prehistórico terrestre. Parece ser un fragmento del cuello.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	aspearberry: {
 		name: "Baya Perasi",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para descongelarse.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	assaultvest: {
 		name: "Chaleco Asalto",
-		shortDesc: "Chaleco que potencia la Def. Esp. del Pokémon que lo lleva, pero le impide lanzar ataques de estado.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	audinite: {
-		name: "Audinita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Audino en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	auspiciousarmor: {
 		name: "Armadura Auspiciosa",
-		shortDesc: "Armadura que alberga sentimientos auspiciosos. Permite evolucionar a Charcadet.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	babiriberry: {
 		name: "Baya Baribá",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Acero.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	banettite: {
-		name: "Banettita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Banette en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	barbaracite: {
-		name: "Barbaraclita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Barbaracle en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	baxcalibrite: {
-		name: "Baxcaliburita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Baxcalibur en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	beastball: {
 		name: "Ente Ball",
-		shortDesc: "Una Poké Ball especial diseñada para capturar Ultraentes. Con otros Pokémon suele fallar.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	beedrillite: {
-		name: "Beedrillita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Beedrill en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	belueberry: {
 		name: "Baya Andano",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Andano.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	berryjuice: {
 		name: "Zumo de Baya",
-		shortDesc: "Zumo de bayas 100% natural que restaura 20 PS de un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	berrysweet: {
 		name: "Confite Fruto",
-		shortDesc: "Confite con forma de fruto. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	bignugget: {
 		name: "Maxipepita",
-		shortDesc: "Pepita grande de oro puro que desprende un brillo espectacular. Muy valorada por los coleccionistas.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	bigroot: {
 		name: "Raíz Grande",
 		grammar: "fs",
-		shortDesc: "Potencia los movimientos que roban PS. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen6: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	bindingband: {
 		name: "Banda Atadura",
-		shortDesc: "Banda que potencia los movimientos que estrujan al rival.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	blackbelt: {
 		name: "Cinturón Negro",
 		grammar: "ms",
-		shortDesc: "Debe llevarlo un Pokémon. Aumenta la decisión y fortalece los ataques de tipo Lucha.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	blacksludge: {
 		name: "Lodo Negro",
-		shortDesc: "Restaura gradualmente los PS de los Pokémon de tipo Veneno y daña a todos los demás.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		heal: "  ¡{POKEMON} ha recuperado unos pocos PS gracias al Lodo Negro!",
 	},
 	blackglasses: {
 		name: "Gafas de Sol",
 		grammar: "fp",
-		shortDesc: "Debe llevarlas un Pokémon. Fortalecen los ataques de tipo Siniestro.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	blastoisinite: {
-		name: "Blastoisita X",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blastoise en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	blazikenite: {
-		name: "Blazikenita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blaziken en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	blueorb: {
 		name: "Prisma Azul",
-		shortDesc: "Piedra añil que, según dicen, guarda una estrecha relación con las leyendas de Hoenn.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	blukberry: {
 		name: "Baya Oram",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Oram.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	blunderpolicy: {
 		name: "Seguro Fallo",
-		shortDesc: "Aumenta mucho la Velocidad cuando el Pokémon erra el movimiento debido a la precisión.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	boosterenergy: {
 		name: "Energía Potenciadora",
-		shortDesc: "Tanque que contiene energía. Si lo lleva un Pokémon que posea cierta habilidad, potenciará su poder.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	bottlecap: {
 		name: "Chapa Plateada",
@@ -229,14 +229,14 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "saquito de Polvo Brillo",
 			grammar: "ms",
 		},
-		shortDesc: "Lanza un destello que baja la precisión del enemigo. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	buggem: {
 		name: "Gema Bicho",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Bicho un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -247,25 +247,25 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	bugmemory: {
 		name: "Disco Bicho",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Bicho. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	burndrive: {
 		name: "PiroROM",
-		shortDesc: "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Fuego.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cameruptite: {
-		name: "Cameruptita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Camerupt en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cellbattery: {
 		name: "Pila",
-		shortDesc: "Batería de usar y tirar que sube el Ataque de quien la lleva cuando recibe un golpe de tipo Eléctrico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chandelurite: {
-		name: "Chandelurita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chandelure en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	charcoal: {
 		name: "Carbón",
@@ -274,150 +274,150 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "trozo de Carbón",
 			grammar: "ms",
 		},
-		shortDesc: "Actúa como combustible y potencia la energía de los ataques de tipo Fuego. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	charizarditex: {
-		name: "Charizardita X",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Charizard en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	charizarditey: {
-		name: "Charizardita Y",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Charizard en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chartiberry: {
 		name: "Baya Alcho",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Roca.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cheriberry: {
 		name: "Baya Zreza",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para recuperarse de la parálisis.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cherishball: {
 		name: "Gloria Ball",
-		shortDesc: "Es una Poké Ball muy particular que se creó para conmemorar algún acontecimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chesnaughtite: {
-		name: "Chesnaughtita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chesnaught en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chestoberry: {
 		name: "Baya Atania",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para despertar del sueño.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chilanberry: {
 		name: "Baya Chilan",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita el ataque de tipo Normal de un enemigo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chilldrive: {
 		name: "CrioROM",
-		shortDesc: "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Hielo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chimechite: {
-		name: "Chimechita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chimecho en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chippedpot: {
 		name: "Tetera Rota",
-		shortDesc: "Tetera rota que permite evolucionar a Sinistea (forma Genuina). Sirve un té exquisito.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	choiceband: {
 		name: "Cinta Elección",
-		shortDesc: "Aumenta el Ataque un 50% pero solo permite usar un tipo de movimiento un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	choicescarf: {
 		name: "Pañuelo Elección",
 		grammar: "ms",
-		shortDesc: "Debe llevarlo un Pokémon. Potencia la Velocidad un 50%, pero solo permite usar un tipo de movimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	choicespecs: {
 		name: "Gafas Elección",
-		shortDesc: "Potencian el At. Esp. un 50% pero solo permiten usar un tipo de movimiento. Debe llevarlas un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	chopleberry: {
 		name: "Baya Pomaro",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Lucha.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	clawfossil: {
 		name: "Fósil Garra",
-		shortDesc: "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser parte de una garra.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	clearamulet: {
 		name: "Amuleto Puro",
-		shortDesc: "Amuleto brillante y transparente. Impide que otros Pokémon reduzcan las características de quien lo lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		block: "  ¡El Amuleto Puro ha impedido que disminuyan las características de {POKEMON}!",
 	},
 	clefablite: {
-		name: "Clefablita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Clefable en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cloversweet: {
 		name: "Confite Trébol",
-		shortDesc: "Confite con forma de trébol. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cobaberry: {
 		name: "Baya Kouba",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Volador.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	colburberry: {
 		name: "Baya Dillo",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Siniestro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cornerstonemask: {
 		name: "Máscara Cimiento",
-		shortDesc: "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Cimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	cornnberry: {
 		name: "Baya Mais",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Mais.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	coverfossil: {
 		name: "Fósil Tapa",
-		shortDesc: "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de caparazón.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	covertcloak: {
 		name: "Capa Furtiva",
-		desc: "Capa con capucha que protege de los efectos secundarios de los movimientos de sus rivales.",
-		shortDesc: "Capa con capucha que protege de los efectos secundarios de los movimientos de sus rivales.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	crabominite: {
-		name: "Crabominablita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Crabominable en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	crackedpot: {
 		name: "Tetera Agrietada",
-		shortDesc: "Tetera agrietada que permite evolucionar a Sinistea (forma Falsificada). Sirve un té exquisito.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	custapberry: {
 		name: "Baya Chiri",
-		shortDesc: "El Pokémon que la lleve podrá actuar en primer lugar una vez cuando se encuentre en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		activate: "  ¡Gracias a la Baya Chiri, {POKEMON} puede tener prioridad!",
 	},
 	damprock: {
 		name: "Roca Lluvia",
 		grammar: "fs",
-		shortDesc: "Prolonga la duración del movimiento Danza Lluvia que use el Pokémon que la lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	darkgem: {
 		name: "Gema Siniestra",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Siniestro un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -428,17 +428,17 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	darkmemory: {
 		name: "Disco Siniestro",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Siniestro. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	darkranite: {
-		name: "Darkrainita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Darkrai en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dawnstone: {
 		name: "Piedra Alba",
 		// Official flavor text: "Una piedra peculiar que hace evolucionar a algunos Pokémon. Brilla como un lucero."
-		desc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Brilla como un lucero.",
-		shortDesc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Brilla como un lucero.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	decidiumz: {
 		name: "Dueyestal Z",
@@ -447,53 +447,53 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	deepseascale: {
 		name: "Escama Marina",
 		// Official flavor text: "Tiene un débil brillo rosado y debe llevarla Clamperl. Sube la Defensa Especial."
-		desc: "Tiene un débil brillo rosado y debe llevarla Clamperl. Sube la Def. Esp.",
-		shortDesc: "Tiene un débil brillo rosado y debe llevarla Clamperl. Sube la Def. Esp.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	deepseatooth: {
 		name: "Diente Marino",
 		// Official flavor text: "Tiene el brillo afilado de la plata y debe llevarlo Clamperl. Sube el Ataque Especial."
-		desc: "Tiene el brillo afilado de la plata y debe llevarlo Clamperl. Sube el At. Esp.",
-		shortDesc: "Tiene el brillo afilado de la plata y debe llevarlo Clamperl. Sube el At. Esp.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	delphoxite: {
-		name: "Delphoxita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Delphox en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	destinyknot: {
 		name: "Lazo Destino",
-		shortDesc: "Un hilo largo y delgado de color rojo que transmite el enamoramiento del Pokémon que lo lleva a su rival.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	diancite: {
-		name: "Diancita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Diancie en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	diveball: {
 		name: "Buceo Ball",
-		shortDesc: "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon que viven en el mar.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	domefossil: {
 		name: "Fósil Domo",
-		shortDesc: "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de concha.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dousedrive: {
 		name: "HidroROM",
-		shortDesc: "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Agua.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dracoplate: {
 		name: "Tabla Draco",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Dragón un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dragalgite: {
-		name: "Dragalgita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Dragalge en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dragonfang: {
 		name: "Colmillo de Dragón",
 		grammar: "ms",
-		shortDesc: "Colmillo de gran dureza que refuerza los ataques de tipo Dragón. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -503,7 +503,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	dragongem: {
 		name: "Gema Dragón",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Dragón un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -519,57 +519,57 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	dragonmemory: {
 		name: "Disco Dragón",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Dragón. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dragonscale: {
 		name: "Escama Dragón",
-		shortDesc: "Una gruesa y resistente escama que pueden llevar los Pokémon de tipo Dragón cuando son capturados.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	drampanite: {
-		name: "Drampanita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Drampa en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dreadplate: {
 		name: "Tabla Oscura",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Siniestro un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	dreamball: {
 		name: "Ensueño Ball",
-		shortDesc: "Una Poké Ball algo diferente que funciona mejor cuando el Pokémon está dormido.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	dubiousdisc: {
 		name: "Disco Extraño",
-		shortDesc: "Dispositivo transparente que contiene datos misteriosos. Permite evolucionar a Porygon2.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	durinberry: {
 		name: "Baya Rudion",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Rudion.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	duskball: {
 		name: "Ocaso Ball",
-		shortDesc: "Es algo distinta. Hace que sea más fácil capturar a Pokémon salvajes en la oscuridad.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	duskstone: {
 		name: "Piedra Noche",
 		// Official flavor text: "Una piedra peculiar que hace evolucionar a algunos Pokémon. Es oscura como la noche."
-		desc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Es oscura como la noche.",
-		shortDesc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Es oscura como la noche.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	earthplate: {
 		name: "Tabla Terrax",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Tierra un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	eelektrossite: {
-		name: "Elektrossita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eelektross en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	eeviumz: {
 		name: "Eeveestal Z",
@@ -577,64 +577,64 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	ejectbutton: {
 		name: "Botón Escape",
-		shortDesc: "Si el portador es alcanzado por un ataque, saldrá del combate y será sustituido por otro Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		end: "  ¡{POKEMON} regresa gracias al Botón Escape!",
 	},
 	ejectpack: {
 		name: "Mochila Escape",
-		shortDesc: "Si el portador ve reducidas sus características, será sustituido por otro Pokémon del equipo.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		end: "  ¡{POKEMON} regresa gracias a la Mochila Escape!",
 	},
 	electirizer: {
 		name: "Electrizador",
-		shortDesc: "Este dispositivo contiene una gran cantidad de energía eléctrica. Sirve para evolucionar a Electabuzz.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	electricgem: {
 		name: "Gema Eléctrica",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Eléctrico un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	electricmemory: {
 		name: "Disco Eléctrico",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Eléctrico. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	electricseed: {
 		name: "Semilla Electro",
-		shortDesc: "Aumenta la Defensa del portador si el terreno está cubierto por un Campo Eléctrico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	electriumz: {
 		name: "Electrostal Z",
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	emboarite: {
-		name: "Emboarita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Emboar en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	enigmaberry: {
 		name: "Baya Enigma",
-		shortDesc: "Restaura los PS de un Pokémon si la lleva cuando le alcanza un ataque supereficaz.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	eviolite: {
 		name: "Mineral Evol",
-		shortDesc: "El Pokémon portador aumentará su Defensa y su Defensa Especial si aún puede evolucionar.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	excadrite: {
-		name: "Excadrilita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Excadril en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	expertbelt: {
 		name: "Cinta Experto",
 		grammar: "ms",
-		shortDesc: "Potencia ligeramente los movimientos supereficaces un 20%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fairiumz: {
 		name: "Feeristal Z",
@@ -643,40 +643,40 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	fairyfeather: {
 		name: "Pluma Feérica",
 		grammar: "fs",
-		shortDesc: "Hermosa pluma que brilla si le da el sol. Fortalece los ataques de tipo Hada.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fairygem: {
 		name: "Gema Hada",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Hada un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fairymemory: {
 		name: "Disco Hada",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Hada. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	falinksite: {
-		name: "Falinksita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Falinks en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fastball: {
 		name: "Rapid Ball",
-		shortDesc: "Poké Ball algo distinta, especialmente indicada para capturar Pokémon con Velocidad muy alta.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	feraligite: {
-		name: "Feraligatrita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Feraligatr en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fightinggem: {
 		name: "Gema Lucha",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Lucha un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	fightingmemory: {
 		name: "Disco Lucha",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Lucha. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fightiniumz: {
 		name: "Lizastal Z",
@@ -684,7 +684,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	figyberry: {
 		name: "Baya Higog",
-		shortDesc: "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -694,20 +694,20 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	firegem: {
 		name: "Gema Fuego",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Fuego un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	firememory: {
 		name: "Disco Fuego",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Fuego. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	firestone: {
 		name: "Piedra Fuego",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Es amarilla con una marca naranja."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Amarilla como el fuego.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Amarilla como el fuego.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	firiumz: {
 		name: "Pirostal Z",
@@ -715,39 +715,39 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	fistplate: {
 		name: "Tabla Fuerte",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Lucha un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	flameorb: {
 		name: "Llamasfera",
-		shortDesc: "Extraña esfera que causa quemaduras a quien la usa en combate. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	flameplate: {
 		name: "Tabla Llama",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Fuego un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	floatstone: {
 		name: "Piedra Pómez",
-		shortDesc: "Piedra muy ligera que reduce el peso del Pokémon que la lleve.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	floettite: {
-		name: "Floettita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Floette Flor Eterna en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	flowersweet: {
 		name: "Confite Flor",
-		shortDesc: "Confite con forma de flor. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	flyinggem: {
 		name: "Gema Voladora",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Volador un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	flyingmemory: {
 		name: "Disco Volador",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Volador. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	flyiniumz: {
 		name: "Aerostal Z",
@@ -756,7 +756,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	focusband: {
 		name: "Cinta Aguante",
 		grammar: "fs",
-		shortDesc: "El Pokémon que la lleve puede resistir un golpe que lo debilitaría y quedarse con 1 PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -766,7 +766,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	focussash: {
 		name: "Banda Aguante",
 		grammar: "fs",
-		shortDesc: "Si el Pokémon que la lleva tiene los PS al máximo, resistirá un golpe que potencialmente lo deja KO con 1 PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -775,63 +775,63 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	fossilizedbird: {
 		name: "Ornitofósil",
-		shortDesc: "Parte del fósil de un Pokémon prehistórico que surcaba los cielos. Su apariencia es una incógnita.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fossilizeddino: {
 		name: "Plesiofósil",
-		shortDesc: "Parte del fósil de un Pokémon prehistórico que habitaba en el mar. Su apariencia es una incógnita.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fossilizeddrake: {
 		name: "Dracofósil",
-		shortDesc: "Parte del fósil de un Pokémon prehistórico que habitaba en tierra firme. Su apariencia es una incógnita.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fossilizedfish: {
 		name: "Ictiofósil",
-		shortDesc: "Parte del fósil de un Pokémon prehistórico que habitaba en el mar. Su apariencia es una incógnita.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	friendball: {
 		name: "Amigo Ball",
-		shortDesc: "Una Poké Ball que hace más amistosos a los Pokémon capturados.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	froslassite: {
-		name: "Froslassita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Froslass en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	fullincense: {
 		name: "Incienso Lento",
-		shortDesc: "Exótica sustancia aromática que hace que el Pokémon que la lleva se mueva más despacio.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	galaricacuff: {
 		name: "Brazal Galanuez",
-		shortDesc: "Un brazalete hecho de Ramas de Galanuez trenzadas. Los Slowpoke de Galar lo adoran.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	galaricawreath: {
 		name: "Corona Galanuez",
-		shortDesc: "Una corona hecha con Ramas de Galanuez. Los Slowpoke de Galar lo adoran.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	galladite: {
-		name: "Galladita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gallade en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ganlonberry: {
 		name: "Baya Gonlan",
-		shortDesc: "Si la lleva un Pokémon, le subirá la Defensa en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	garchompite: {
-		name: "Garchompita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Garchomp en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	garchompitez: {
-		name: "Garchompita Z",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Garchomp en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	gardevoirite: {
-		name: "Gardevoirita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gardevoir en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	gengarite: {
 		name: null, // NEEDS TRANSLATION
@@ -840,7 +840,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	ghostgem: {
 		name: "Gema Fantasma",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Fantasma un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -851,34 +851,34 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	ghostmemory: {
 		name: "Disco Fantasma",
-		shortDesc: "Disco de datos que contiene info. relativa al tipo Fantasma. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	glalitite: {
-		name: "Glalita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Glalie en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	glimmoranite: {
-		name: "Glimmoranita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Glimmora en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	goldbottlecap: {
 		name: "Chapa Dorada",
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	golisopite: {
-		name: "Golisopodita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Golisopod en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	golurkite: {
-		name: "Golurkita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Golurk en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	grassgem: {
 		name: "Gema Planta",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Planta un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -889,43 +889,43 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	grassmemory: {
 		name: "Disco Planta",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Planta. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	grassyseed: {
 		name: "Semilla Hierba",
-		shortDesc: "Aumenta la Defensa del portador si el terreno está cubierto por un Campo de Hierba.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	greatball: {
 		name: "Super Ball",
-		shortDesc: "Poké Ball de alto rendimiento. Tiene un índice de éxito superior al de la Poké Ball.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	greninjite: {
-		name: "Greninjanita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Greninja en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	grepaberry: {
 		name: "Baya Uvav",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Defensa Especial.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	gripclaw: {
 		name: "Garra Garfio",
-		shortDesc: "Prolonga la duración de ataques multiturno como Atadura y Repetición. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	griseouscore: {
 		name: "Gran Griseosfera",
-		shortDesc: "Si se usa en Giratina, esta gran gema le hace cambiar de forma.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	griseousorb: {
 		name: "Griseosfera",
-		shortDesc: "Una esfera brillante que potencia los ataques de tipo Dragón y Fantasma. Debe llevarla Giratina.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	groundgem: {
 		name: "Gema Tierra",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Tierra un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -936,22 +936,22 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	groundmemory: {
 		name: "Disco Tierra",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Tierra. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	gyaradosite: {
-		name: "Gyaradosita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gyarados en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	habanberry: {
 		name: "Baya Anjiro",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Dragón.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	hardstone: {
 		name: "Piedra Dura",
 		grammar: "fs",
-		shortDesc: "Debe llevarla un Pokémon. La robustez de la piedra fortalece los ataques de tipo Roca.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -963,50 +963,50 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	healball: {
 		name: "Sana Ball",
-		shortDesc: "Poké Ball curativa que restaura los PS de un Pokémon capturado y cura sus problemas de estado.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	hearthflamemask: {
 		name: "Máscara Horno",
-		shortDesc: "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Horno.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	heatranite: {
-		name: "Heatranita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Heatran en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	heatrock: {
 		name: "Roca Calor",
 		grammar: "fs",
-		shortDesc: "Prolonga la duración del movimiento Día Soleado que use el Pokémon que la lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	heavyball: {
 		name: "Peso Ball",
-		shortDesc: "Una Poké Ball diseñada para capturar Pokémon muy pesados.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	heavydutyboots: {
 		name: "Botas Gruesas",
-		shortDesc: "Anula los efectos de aquello que se coloca a los pies del Pokémon para obstaculizarlo, como las trampas.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	helixfossil: {
 		name: "Fósil Hélix",
-		shortDesc: "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de concha marina.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	heracronite: {
-		name: "Heracrossita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Heracross en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	hondewberry: {
 		name: "Baya Meluce",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Ataque Especial.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	houndoominite: {
-		name: "Houndoomita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Houndoom en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	iapapaberry: {
 		name: "Baya Pabaya",
-		shortDesc: "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1016,27 +1016,27 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	icegem: {
 		name: "Gema Hielo",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Hielo un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	icememory: {
 		name: "Disco Hielo",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Hielo. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	icestone: {
 		name: "Piedra Hielo",
 		// Official flavor text: "Una piedra peculiar que hace evolucionar a algunos Pokémon. Presenta motivos que recuerdan a los cristales de hielo."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene un patrón nevado.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene un patrón nevado.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			desc: null, // NEEDS TRANSLATION
 		},
 	},
 	icicleplate: {
 		name: "Tabla Helada",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Hielo un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	iciumz: {
 		name: "Criostal Z",
@@ -1045,7 +1045,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	icyrock: {
 		name: "Roca Helada",
 		grammar: "fs",
-		shortDesc: "Prolonga la duración del movimiento Granizo del Pokémon que la lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen8: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1056,57 +1056,57 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	insectplate: {
 		name: "Tabla Bicho",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Bicho un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ironball: {
 		name: "Bola Férrea",
 		grammar: "fs",
-		shortDesc: "Reduce la Velocidad y los movimientos tipo Tierra afectan a Pokémon que levitan y los de tipo Volador.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	ironplate: {
 		name: "Tabla Acero",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Acero un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	jabocaberry: {
 		name: "Baya Jaboca",
-		shortDesc: "Si la lleva un Pokémon cuando un enemigo lanza un ataque físico, este también recibirá daño.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	jawfossil: {
 		name: "Fósil Mandíbula",
-		shortDesc: "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una mandíbula.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kangaskhanite: {
-		name: "Kangaskhanita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Kangaskhan en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kasibberry: {
 		name: "Baya Drasi",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Fantasma.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kebiaberry: {
 		name: "Baya Kebia",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Veneno.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	keeberry: {
 		name: "Baya Biglia",
-		shortDesc: "Aumenta la defensa cuando el Pokémon recibe un ataque físico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kelpsyberry: {
 		name: "Baya Algama",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Ataque.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kingsrock: {
 		name: "Roca del Rey",
 		grammar: "fs",
 		// Official flavor text: "El Pokémon que la lleva puede amedrentar al Pokémon al que le inflige daño."
-		desc: "Puede amedrentar al enemigo cuando el Pokémon que la lleva le hiera.",
-		shortDesc: "Puede amedrentar al enemigo cuando el Pokémon que la lleva le hiera.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	kommoniumz: {
 		name: "Kommostal Z",
@@ -1114,23 +1114,23 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	laggingtail: {
 		name: "Cola Plúmbea",
-		shortDesc: "Es muy pesada y hace que el Pokémon que la lleva se mueva más lento de lo normal.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lansatberry: {
 		name: "Baya Zonlan",
-		shortDesc: "Si la lleva un Pokémon, sube su capacidad de dar un golpe crítico en un apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	latiasite: {
-		name: "Latiasita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Latias en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	latiosite: {
-		name: "Latiosita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Latios en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	laxincense: {
 		name: "Incienso Suave",
-		shortDesc: "Debe llevarlo un Pokémon. Su peculiar aroma reduce la precisión del rival.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1138,49 +1138,49 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	leafstone: {
 		name: "Piedra Hoja",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Tiene grabada una hoja."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujada una hoja.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujada una hoja.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			desc: null, // NEEDS TRANSLATION
 		},
 	},
 	leek: {
 		name: "Puerro",
-		shortDesc: "Es un puerro muy largo que suele llevar Farfetch'd. Aumenta la probabilidad de un golpe crítico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	leftovers: {
 		name: "Restos",
 		grammar: "mp",
-		shortDesc: "Restauran gradualmente los PS del Pokémon que los lleva durante el combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		heal: "  ¡{POKEMON} ha recuperado unos pocos PS gracias a los Restos!",
 	},
 	leppaberry: {
 		name: "Baya Zanama",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para restaurar 10 PP de un movimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		activate: "  ¡{POKEMON} ha recuperado los PP de {MOVE} gracias a la Baya Zanama!",
 	},
 	levelball: {
 		name: "Nivel Ball",
-		shortDesc: "Una Poké Ball diseñada para capturar Pokémon de nivel inferior al de tu Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	liechiberry: {
 		name: "Baya Lichi",
-		shortDesc: "Si la lleva un Pokémon, le subirá el Ataque en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lifeorb: {
 		name: "Vidasfera",
 		grammar: "fs",
-		shortDesc: "Potencia los movimientos, pero consume PS con cada ataque un 30%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		damage: "  ¡{POKEMON} ha perdido unos pocos PS!",
 	},
 	lightball: {
 		name: "Bola Luminosa",
 		grammar: "fs",
-		shortDesc: "Asombrosa esfera que debe llevar Pikachu y que aumenta el Ataque y el Ataque Especial.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1191,41 +1191,41 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	lightclay: {
 		name: "Refleluz",
 		grammar: "ms",
-		shortDesc: "Prolonga la duración de barreras como Reflejo y Pantalla de Luz. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen6: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	loadeddice: {
 		name: "Dado Trucado",
-		desc: "Dado que siempre cae favorablemente. Los movimientos de ataque múltiple golpearán más veces.",
-		shortDesc: "Dado que siempre cae favorablemente. Los movimientos de ataque múltiple golpearán más veces.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lopunnite: {
-		name: "Lopunnita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lopunny en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	loveball: {
 		name: "Amor Ball",
-		shortDesc: "Una Poké Ball diseñada para capturar Pokémon del género opuesto al de tu Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lovesweet: {
 		name: "Confite Corazón",
-		shortDesc: "Confite con forma de corazón. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lucarionite: {
-		name: "Lucarita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lucario en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lucarionitez: {
-		name: "Lucarita Z",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lucario en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	luckypunch: {
 		name: "Puño Suerte",
-		shortDesc: "Debe llevarlo Chansey. Potencia su índice de golpe crítico.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1233,11 +1233,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	lumberry: {
 		name: "Baya Ziuela",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para recuperarse de problemas de estado.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	luminousmoss: {
 		name: "Musgo Brillante",
-		shortDesc: "Objeto de un solo uso. Aumenta la Def. Esp. del Pokémon que la lleva si este recibe un ataque de tipo Agua.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lunaliumz: {
 		name: "Lunalastal Z",
@@ -1245,19 +1245,19 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	lureball: {
 		name: "Cebo Ball",
-		shortDesc: "Poké Ball algo distinta, especialmente indicada para capturar los Pokémon que se han pescado con una Caña.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lustrousglobe: {
 		name: "Gran Lustresfera",
-		shortDesc: "Si se usa en Palkia, esta gran gema le hace cambiar de forma.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lustrousorb: {
 		name: "Lustresfera",
-		shortDesc: "Una bonita esfera que potencia los ataques de tipo Dragón y Agua. Debe llevarla Palkia.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	luxuryball: {
 		name: "Lujo Ball",
-		shortDesc: "Acogedora Poké Ball que hace más amistosos a los Pokémon salvajes capturados.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	lycaniumz: {
 		name: "Lycanrostal Z",
@@ -1265,27 +1265,27 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	machobrace: {
 		name: "Brazal Firme",
-		shortDesc: "Sólido y pesado brazal que fomenta el crecimiento pero reduce la Velocidad. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	magearnite: {
-		name: "Magearnita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Magearna en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	magmarizer: {
 		name: "Magmatizador",
-		shortDesc: "Esta caja contiene una enorme cantidad de energía magmática. Sirve para evolucionar a Magmar.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	magnet: {
 		name: "Imán",
 		grammar: "ms",
-		shortDesc: "Debe llevarlo un Pokémon. Su potente magnetismo fortalece los ataques de tipo Eléctrico.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	magoberry: {
 		name: "Baya Ango",
-		shortDesc: "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1295,29 +1295,29 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	magostberry: {
 		name: "Baya Aostan",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Aostan.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mail: {
 		name: null, // NEEDS TRANSLATION
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	malamarite: {
-		name: "Malamarita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Malamar en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	maliciousarmor: {
 		name: "Armadura Maldita",
-		shortDesc: "Armadura que alberga sentimientos de rencor. Permite evolucionar a Charcadet.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	manectite: {
-		name: "Manectricita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Manectric en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	marangaberry: {
 		name: "Baya Maranga",
-		shortDesc: "Aumenta la defensa especial cuando el Pokémon recibe un ataque especial.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	marshadiumz: {
 		name: "Marshastal Z",
@@ -1325,52 +1325,52 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	masterball: {
 		name: "Master Ball",
-		shortDesc: "La Poké Ball definitiva. Atrapa a cualquier Pokémon salvaje y no falla nunca.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	masterpieceteacup: {
 		name: "Cuenco Exquisito",
-		shortDesc: "Cuenco exquisito que permite evolucionar a Poltchageist (forma Opulenta).",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mawilite: {
-		name: "Mawilita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mawile en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	meadowplate: {
 		name: "Tabla Pradal",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Planta un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	medichamite: {
-		name: "Medichamita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Medicham en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	meganiumite: {
-		name: "Meganiumita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Meganium en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mentalherb: {
 		name: "Hierba Mental",
 		grammar: "fs",
-		shortDesc: "El Pokémon que la lleve se libera del enamoramiento. Solo puede usarse una vez.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	meowsticite: {
-		name: "Meowsticita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Meowstic en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	metagrossite: {
-		name: "Metagrossita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Metagross en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	metalalloy: {
 		name: "Metal Compuesto",
-		shortDesc: "Metal resultante de la mezcla de otros metales. Permite evolucionar a Duraludon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	metalcoat: {
 		name: "Revest. Metálico",
@@ -1380,8 +1380,8 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			grammar: "ms",
 		},
 		// Official flavor text: "Película metálica que fortalece los ataques de tipo Acero. Debe llevarlo un Pokémon."
-		desc: "Película metálica que fortalece los ataques de tipo Acero. Debe llevarlo un Pokémon.",
-		shortDesc: "Película metálica que fortalece los ataques de tipo Acero. Debe llevarlo un Pokémon.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			desc: null, // NEEDS TRANSLATION
 			shortDesc: null, // NEEDS TRANSLATION
@@ -1389,7 +1389,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	metalpowder: {
 		name: "Polvo Metálico",
-		shortDesc: "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez resistente, que aumentará su Defensa.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1397,7 +1397,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	metronome: {
 		name: "Metrónomo",
 		grammar: "ms",
-		shortDesc: "Potencia un movimiento que se use de forma consecutiva. Pero el efecto se pierde si se emplea otro movimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen4: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1407,16 +1407,16 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mewtwonitex: {
-		name: "Mewtwoita X",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mewtwo en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mewtwonitey: {
-		name: "Mewtwoita Y",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mewtwo en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	micleberry: {
 		name: "Baya Lagro",
-		shortDesc: "Cuando la lleve un Pokémon, le subirá la precisión de un movimiento en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mimikiumz: {
 		name: "Mimikyustal Z",
@@ -1424,40 +1424,40 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	mindplate: {
 		name: "Tabla Mental",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Psíquico un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	miracleseed: {
 		name: "Semilla Milagro",
 		grammar: "fs",
-		shortDesc: "Debe llevarla un Pokémon. La vitalidad de la semilla fortalece los ataques de tipo Planta.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	mirrorherb: {
 		name: "Hierba Copia",
-		shortDesc: "Quien la lleva aumenta sus características si el rival aumenta las suyas. De un solo uso.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		activate: "  ¡{POKEMON} ha usado una Hierba Copia y ha copiado los cambios en las características del rival!",
 	},
 	mistyseed: {
 		name: "Semilla Bruma",
-		shortDesc: "Aumenta la Defensa Especial del portador si el terreno está cubierto por un Campo de Niebla.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	moonball: {
 		name: "Luna Ball",
-		shortDesc: "Una Poké Ball diseñada para capturar Pokémon que evolucionan con Piedra Lunar.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	moonstone: {
 		name: "Piedra Lunar",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Es oscura como la noche."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Negra como el azabache.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Negra como el azabache.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	muscleband: {
 		name: "Cinta Fuerte",
 		grammar: "fs",
-		shortDesc: "Cinta de pelo que aumenta ligeramente la potencia de los movimientos físicos.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	mysticwater: {
 		name: "Agua Mística",
@@ -1467,22 +1467,22 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "colgante de Agua Mística",
 			grammar: "ms",
 		},
-		shortDesc: "Gema con forma de lágrima que fortalece los ataques de tipo Agua un 20%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	nanabberry: {
 		name: "Baya Latano",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Latano.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	nestball: {
 		name: "Nido Ball",
-		shortDesc: "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon salvajes de menor nivel.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	netball: {
 		name: "Malla Ball",
-		shortDesc: "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon de tipo Agua y Bicho.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	nevermeltice: {
 		name: "Hielo Perpetuo",
@@ -1491,18 +1491,18 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "trozo de Hielo Perpetuo",
 			grammar: "ms",
 		},
-		shortDesc: "Fragmento de hielo que repele el calor y fortalece los ataques de tipo Hielo. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	nomelberry: {
 		name: "Baya Monli",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Monli.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	normalgem: {
 		name: "Gema Normal",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Normal un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1514,28 +1514,28 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	occaberry: {
 		name: "Baya Caoca",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Fuego.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	oddincense: {
 		name: "Incienso Raro",
-		shortDesc: "Incienso de exótico aroma que fortalece los movimientos de tipo Psíquico. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	oldamber: {
 		name: "Ámbar Viejo",
-		shortDesc: "Fragmento de ámbar que contiene información genética de un Pokémon ancestral. Es de color amarillo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	oranberry: {
 		name: "Baya Aranja",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden usarla o llevarla para restaurar 10 PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ovalstone: {
 		name: "Piedra Oval",
-		shortDesc: "Una piedra peculiar que permite evolucionar a Happiny. Tiene forma de huevo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pamtreberry: {
 		name: "Baya Plama",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Plama.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	parkball: {
 		name: "Parque Ball",
@@ -1544,31 +1544,31 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	passhoberry: {
 		name: "Baya Pasio",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Agua.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	payapaberry: {
 		name: "Baya Payapa",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Psíquico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pechaberry: {
 		name: "Baya Meloc",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para curarse del envenenamiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	persimberry: {
 		name: "Baya Caquic",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden usarla o llevarla para salir del estado de confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	petayaberry: {
 		name: "Baya Yapati",
-		shortDesc: "Si la lleva un Pokémon, le subirá el At. Esp. en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pidgeotite: {
-		name: "Pidgeotita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pidgeot en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pikaniumz: {
 		name: "Pikastal Z",
@@ -1580,32 +1580,32 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	pinapberry: {
 		name: "Baya Pinia",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Pinia.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pinsirite: {
-		name: "Pinsirita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pinsir en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pixieplate: {
 		name: "Tabla Duende",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Hada un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	plumefossil: {
 		name: "Fósil Pluma",
-		shortDesc: "Fósil de un Pokémon ancestral que surcó los cielos. Parece ser parte de un ala suya.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	poisonbarb: {
 		name: "Flecha Venenosa",
 		grammar: "fs",
-		shortDesc: "Flecha venenosa que refuerza los movimientos de tipo Veneno un 20%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	poisongem: {
 		name: "Gema Veneno",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Veneno un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1616,53 +1616,53 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	poisonmemory: {
 		name: "Disco Veneno",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Veneno. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pokeball: {
 		name: "Poké Ball",
-		shortDesc: "Dispositivo con diseño capsular que atrapa Pokémon salvajes. Se lanza como una bola contra el blanco.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pomegberry: {
 		name: "Baya Grana",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero también reduces sus PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	poweranklet: {
 		name: "Franja Recia",
-		shortDesc: "Ayuda a ganar Velocidad al subir de nivel, pero reduce la Velocidad en combate. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	powerband: {
 		name: "Banda Recia",
-		shortDesc: "Ayuda a ganar Def. Esp. al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	powerbelt: {
 		name: "Cinto Recio",
-		shortDesc: "Ayuda a ganar Defensa al subir de nivel, pero reduce la Velocidad. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	powerbracer: {
 		name: "Brazal Recio",
-		shortDesc: "Ayuda a ganar Ataque al subir de nivel, pero reduce la Velocidad. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	powerherb: {
 		name: "Hierba Única",
-		shortDesc: "Permite el uso inmediato de cualquier movimiento en el primer turno. Es de un solo uso.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		end: "  ¡{POKEMON} ya está listo gracias a la Hierba Única!",
 	},
 	powerlens: {
 		name: "Lente Recia",
-		shortDesc: "Ayuda a ganar At. Esp. al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	powerweight: {
 		name: "Pesa Recia",
-		shortDesc: "Ayuda a conseguir más PS al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	premierball: {
 		name: "Honor Ball",
-		shortDesc: "Es una Poké Ball muy particular que se creó para conmemorar algún acontecimiento.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	prettyfeather: {
 		name: "Pluma Bella",
-		shortDesc: "Pluma normal y corriente. Muy bonita, pero no sirve para nada.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	primariumz: {
 		name: "Primastal Z",
@@ -1670,32 +1670,32 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	prismscale: {
 		name: "Escama Bella",
-		shortDesc: "Preciosa escama que permite evolucionar a Feebas. Brilla con los colores del arcoíris.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	protectivepads: {
 		name: "Paracontacto",
-		shortDesc: "Protege al Pokémon de los efectos que le produciría el contacto directo en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		block: "  ¡{POKEMON} ha neutralizado el efecto gracias al Paracontacto!",
 	},
 	protector: {
 		name: "Protector",
-		shortDesc: "Dispositivo de protección muy pesado. Sirve para evolucionar a Rhydon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	psychicgem: {
 		name: "Gema Psíquica",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Psíquico un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	psychicmemory: {
 		name: "Disco Psíquico",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Psíquico. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	psychicseed: {
 		name: "Semilla Psique",
-		shortDesc: "Aumenta la Defensa Especial del portador si el terreno está cubierto por un Campo Psíquico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	psychiumz: {
 		name: "Psicostal Z",
@@ -1703,25 +1703,25 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	punchingglove: {
 		name: "Guante de Boxeo",
-		shortDesc: "Guante que aumenta la potencia de los movimientos con puños y evita que hagan contacto con el rival.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	pyroarite: {
-		name: "Pyroarita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pyroar en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	qualotberry: {
 		name: "Baya Ispero",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Defensa.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	quickball: {
 		name: "Veloz Ball",
-		shortDesc: "Una Poké Ball que aumenta su eficacia si se usa en el turno 1 del combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	quickclaw: {
 		name: "Garra Rápida",
 		grammar: "fs",
-		shortDesc: "Garra ligera y afilada que permite que el Pokémon que la lleve ataque primero ocasionalmente.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen2: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1730,11 +1730,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	quickpowder: {
 		name: "Polvo Veloz",
-		shortDesc: "Este objeto duplica la Velocidad de Ditto en batalla. Deja de ser efectivo una vez se transforma.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rabutaberry: {
 		name: "Baya Rautan",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Rautan.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	raichunitex: {
 		name: null, // NEEDS TRANSLATION
@@ -1748,70 +1748,70 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	rarebone: {
 		name: "Hueso Raro",
-		shortDesc: "Un hueso de gran valor arqueológico que puede alcanzar un alto precio en las tiendas.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rawstberry: {
 		name: "Baya Safre",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden llevarla o usarla para curarse las quemaduras.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	razorclaw: {
 		name: "Garra Afilada",
 		// Official flavor text: "Aumenta la probabilidad de que el Pokémon que la lleve consiga un golpe crítico."
-		desc: "Aumenta a la probabilidad de que el Pokémon que la lleva consiga un golpe crítico.",
-		shortDesc: "Aumenta a la probabilidad de que el Pokémon que la lleva consiga un golpe crítico.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	razorfang: {
 		name: "Colmillo Agudo",
 		// Official flavor text: "Si lo lleva un Pokémon, puede amedrentar al objetivo al infligirle daño."
-		desc: "Si lo lleva un Pokémon cuando hiere a un rival, puede amedrentarlo.",
-		shortDesc: "Si lo lleva un Pokémon cuando hiere a un rival, puede amedrentarlo.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	razzberry: {
 		name: "Baya Frambu",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Frambu.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	reapercloth: {
 		name: "Tela Terrible",
-		shortDesc: "Tela imbuida de una energía espiritual muy potente. Sirve para evolucionar a Dusclops.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	redcard: {
 		name: "Tarjeta Roja",
-		shortDesc: "Misteriosa tarjeta que permite al Pokémon que la lleve expulsar al agresor cuando este le cause daño.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		end: "  ¡{POKEMON} le ha sacado una Tarjeta Roja a {TARGET}!",
 	},
 	redorb: {
 		name: "Prisma Rojo",
-		shortDesc: "Piedra carmesí de la que se dice que guarda una estrecha relación con las leyendas de Hoenn.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	repeatball: {
 		name: "Acopio Ball",
-		shortDesc: "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon iguales a los que ya has capturado.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ribbonsweet: {
 		name: "Confite Lazo",
-		shortDesc: "Confite con forma de lazo. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rindoberry: {
 		name: "Baya Tamar",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Planta.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ringtarget: {
 		name: "Blanco",
-		shortDesc: "El Pokémon que lo lleva es vulnerable frente a movimientos que normalmente no afectan a su tipo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rockgem: {
 		name: "Gema Roca",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Roca un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	rockincense: {
 		name: "Incienso Roca",
-		shortDesc: "Incienso de exótico aroma que fortalece los movimientos de tipo Roca. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rockiumz: {
 		name: "Litostal Z",
@@ -1819,107 +1819,107 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	rockmemory: {
 		name: "Disco Roca",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Roca. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rockyhelmet: {
 		name: "Casco Dentado",
-		shortDesc: "Si el portador es alcanzado por un ataque físico, el agresor también recibe daño.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		damage: "  ¡El Casco Dentado ha dañado a {POKEMON}!",
 	},
 	roomservice: {
 		name: "Servicio Raro",
-		shortDesc: "Si lo lleva un Pokémon, reduce la Velocidad cuando se usa Espacio Raro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rootfossil: {
 		name: "Fósil Raíz",
-		shortDesc: "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser parte de una raíz.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	roseincense: {
 		name: "Incienso Floral",
-		shortDesc: "Incienso de exótico aroma que fortalece los movimientos de tipo Planta. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	roseliberry: {
 		name: "Baya Hibis",
 		grammar: "fs",
-		shortDesc: "Debilita ataques super eficaces de tipo Hada.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rowapberry: {
 		name: "Baya Magua",
-		shortDesc: "Si la lleva un Pokémon cuando un enemigo lanza un ataque especial, este también recibirá daño.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rustedshield: {
 		name: "Escudo Oxidado",
-		shortDesc: "Cuenta una antigua leyenda que un valiente héroe asió este escudo para hacer frente a un cataclismo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	rustedsword: {
 		name: "Espada Oxidada",
-		shortDesc: "Cuenta una antigua leyenda que un valiente héroe blandió esta espada para hacer frente a un cataclismo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sablenite: {
-		name: "Sableynita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sableye en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sachet: {
 		name: "Saquito Fragante",
-		shortDesc: "Saquito que desprende un aroma peculiar. Sirve para evolucionar a Spritzee.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	safariball: {
 		name: "Safari Ball",
-		shortDesc: "Poké Ball con un diseño de camuflaje que se utiliza únicamente en el Gran Pantano.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	safetygoggles: {
 		name: "Gafa Protectora",
-		shortDesc: "Gafa que protege de los efectos adversos del clima y del polvo lanzado por los rivales.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		block: "  ¡{MOVE} no ha afectado a {POKEMON} gracias a la Gafa Protectora!",
 	},
 	sailfossil: {
 		name: "Fósil Aleta",
-		shortDesc: "Fósil de un Pokémon prehistórico marino. Parece ser parte de una aleta.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	salacberry: {
 		name: "Baya Aslac",
-		shortDesc: "Si la lleva un Pokémon, le subirá la Velocidad en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	salamencite: {
-		name: "Salamencita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Salamence en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sceptilite: {
-		name: "Sceptilita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sceptile en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	scizorite: {
-		name: "Scizorita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scizor en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	scolipite: {
-		name: "Scolipeditas",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scolipede en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	scopelens: {
 		name: "Periscopio",
 		grammar: "ms",
-		shortDesc: "Su lente aumenta la posibilidad que tiene el Pokémon que lo lleva de conseguir un golpe crítico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	scovillainite: {
-		name: "Scovillainita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scovillain en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	scraftinite: {
-		name: "Scraftita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scrafty en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	seaincense: {
 		name: "Incienso Marino",
-		shortDesc: "Tiene un curioso aroma que potencia la energía de los ataques de tipo Agua. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1927,47 +1927,47 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	sharpbeak: {
 		name: "Pico Afilado",
 		grammar: "ms",
-		shortDesc: "Pico largo y afilado que aumenta la potencia de los movimientos de tipo Volador. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	sharpedonite: {
-		name: "Sharpedonita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sharpedo en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	shedshell: {
 		name: "Muda Concha",
 		grammar: "fs",
-		shortDesc: "En combate, esta concha desechada sirve para que un Pokémon se cambie por otro que no esté combatiendo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	shellbell: {
 		name: "Cascabel Concha",
 		grammar: "ms",
-		shortDesc: "Debe llevarla un Pokémon. Cada vez que este inflija daño, recuperará algunos PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		heal: "  ¡{POKEMON} ha recuperado unos pocos PS gracias al Cascabel Concha!",
 	},
 	shinystone: {
 		name: "Piedra Día",
 		// Official flavor text: "Una piedra peculiar que hace evolucionar a algunos Pokémon. Tiene un brillo espectacular."
-		desc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Tiene un brillo espectacular.",
-		shortDesc: "Una piedra peculiar que permite evolucionar a algunos Pokémon. Tiene un brillo espectacular.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	shockdrive: {
 		name: "FulgoROM",
-		shortDesc: "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Eléctrico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	shucaberry: {
 		name: "Baya Acardo",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Tierra.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	silkscarf: {
 		name: "Pañuelo de Seda",
 		grammar: "ms",
-		shortDesc: "La delicadeza del pañuelo fortalece los ataques de tipo Normal. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1979,7 +1979,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "puñado de Polvo Plata",
 			grammar: "ms",
 		},
-		shortDesc: "Polvo de brillo argénteo que fortalece los ataques de tipo Bicho. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -1987,28 +1987,28 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	sitrusberry: {
 		name: "Baya Zidra",
 		grammar: "fs",
-		shortDesc: "Los Pokémon pueden usarla o llevarla para restaurar algunos PS.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	skarmorite: {
-		name: "Skarmorita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Skarmory en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	skullfossil: {
 		name: "Fósil Cráneo",
-		shortDesc: "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una cabeza.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	skyplate: {
 		name: "Tabla Cielo",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Volador un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	slowbronite: {
-		name: "Slowbronita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Slowbro en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 		champions: {
 			shortDesc: null, // NEEDS TRANSLATION: not in PokeAPI
 		},
@@ -2016,7 +2016,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	smoothrock: {
 		name: "Roca Suave",
 		grammar: "fs",
-		shortDesc: "Prolonga la duración del movimiento Tormenta Arena que use el Pokémon que la lleva.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	snorliumz: {
 		name: "Snorlastal Z",
@@ -2024,7 +2024,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	snowball: {
 		name: "Bola de Nieve",
-		shortDesc: "Objeto de un solo uso. Aumenta el Ataque del Pokémon que lo lleva si este recibe un ataque de tipo Hielo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	softsand: {
 		name: "Arena Fina",
@@ -2033,7 +2033,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			name: "saquito de Arena Fina",
 			grammar: "ms",
 		},
-		shortDesc: "Debe llevarla un Pokémon. La suavidad de la arena fortalece los ataques de tipo Tierra.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -2044,7 +2044,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	souldew: {
 		name: "Rocío Bondad",
-		shortDesc: "Un orbe fantástico que deben llevar Latios o Latias. Potencia los movimientos de tipo Dragón y Psíquico en un 20%.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen6: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -2052,48 +2052,48 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	spelltag: {
 		name: "Hechizo",
 		grammar: "ms",
-		shortDesc: "Misterioso y oscuro objeto que refuerza los ataques de tipo Fantasma. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	spelonberry: {
 		name: "Baya Wikano",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Wikano.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	splashplate: {
 		name: "Tabla Linfa",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Agua un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	spookyplate: {
 		name: "Tabla Terror",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Fantasma un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sportball: {
 		name: "Competi Ball",
-		shortDesc: "Poké Ball especial para el Concurso de Captura de Bichos.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	staraptite: {
-		name: "Staraptorita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Staraptor en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	starfberry: {
 		name: "Baya Arabol",
-		shortDesc: "Si la lleva un Pokémon, aumenta drásticamente 1 característica en un momento de apuro.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	starminite: {
-		name: "Starmita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Starmie en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	starsweet: {
 		name: "Confite Estrella",
-		shortDesc: "Confite con forma de estrella. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	steelgem: {
 		name: "Gema Acero",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Acero un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -2103,13 +2103,13 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: null, // NEEDS TRANSLATION
 	},
 	steelixite: {
-		name: "Steelixita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Steelix en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	steelmemory: {
 		name: "Disco Acero",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Acero. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	stick: {
 		name: "Puerro",
@@ -2120,11 +2120,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	stickybarb: {
 		name: "Toxiestrella",
-		shortDesc: "Daña en cada turno al Pokémon que la lleva y también puede dañar a los enemigos que toquen al Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	stoneplate: {
 		name: "Tabla Pétrea",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Roca un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	strangeball: {
 		name: "Extraña Ball",
@@ -2132,35 +2132,35 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	strawberrysweet: {
 		name: "Confite Fresa",
-		shortDesc: "Confite con forma de fresa. Permite evolucionar a Milcery.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sunstone: {
 		name: "Piedra Solar",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Es roja como el núcleo del sol."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es roja como el sol.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es roja como el sol.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	swampertite: {
-		name: "Swampertita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Swampert en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	sweetapple: {
 		name: "Manzana Dulce",
-		shortDesc: "Curiosa manzana, de sabor particularmente dulce, que permite evolucionar a Applin.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	syrupyapple: {
 		name: "Manzana Melosa",
-		shortDesc: "Curiosa manzana recubierta de sirope que permite evolucionar a Applin.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	tamatoberry: {
 		name: "Baya Tamate",
-		shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero baja su Velocidad.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	tangaberry: {
 		name: "Baya Yecana",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Bicho.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	tapuniumz: {
 		name: "Tapistal Z",
@@ -2168,44 +2168,44 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	tartapple: {
 		name: "Manzana Ácida",
-		shortDesc: "Curiosa manzana, de sabor particularmente ácido, que permite evolucionar a Applin.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	tatsugirinite: {
-		name: "Tatsugirita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Tatsugiri en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	terrainextender: {
 		name: "Cubresuelos",
-		shortDesc: "Al llevarlo, prolonga la duración de los campos creados por el Pokémon en el terreno de combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	thickclub: {
 		name: "Hueso Grueso",
-		shortDesc: "Un extraño tipo de hueso que potencia el Ataque. Suelen llevarlo Cubone o Marowak.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	throatspray: {
 		name: "Espray Bucal",
-		shortDesc: "Aumenta el Ataque Especial al emplear un movimiento que se sirva del sonido.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	thunderstone: {
 		name: "Piedra Trueno",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Tiene grabado un rayo."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujado un rayo.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujado un rayo.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			desc: null, // NEEDS TRANSLATION
 		},
 	},
 	timerball: {
 		name: "Turno Ball",
-		shortDesc: "Una Poké Ball algo distinta que va mejorando su rendimiento con cada turno de combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	toxicorb: {
 		name: "Toxisfera",
-		shortDesc: "Extraña esfera que envenena gravemente a quien la usa en combate. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	toxicplate: {
 		name: "Tabla Tóxica",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Veneno un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	tr00: {
 		name: "DT00",
@@ -2610,19 +2610,19 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	twistedspoon: {
 		name: "Cuchara Torcida",
 		grammar: "fs",
-		shortDesc: "Cuchara llena de energía telequinética que potencia los movimientos de tipo Psíquico.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
 	tyranitarite: {
-		name: "Tyranitarita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Tyranitar en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ultraball: {
 		name: "Ultra Ball",
-		shortDesc: "Poké Ball de rendimiento superior. Tiene más índice de éxito que la Superball.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	ultranecroziumz: {
 		name: "Ultranecrostal Z",
@@ -2633,39 +2633,39 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	unremarkableteacup: {
 		name: "Cuenco Mediocre",
-		shortDesc: "Cuenco mediocre que permite evolucionar a Poltchageist (forma Fraudulenta).",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	upgrade: {
 		name: "Mejora",
-		shortDesc: "Peculiar dispositivo fabricado en Silph S.A. que contiene todo tipo de datos. Permite evolucionar a Porygon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	utilityumbrella: {
 		name: "Parasol Multiuso",
 		// Official flavor text: "El portador se vuelve invulnerable a los efectos de la lluvia y del sol."
-		desc: "El portador se vuelve invulnerable a los efectos de los climas lluvioso y soleado.",
-		shortDesc: "El portador se vuelve invulnerable a los efectos de los climas lluvioso y soleado.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 		gen8: {
 			desc: null, // NEEDS TRANSLATION
 		},
 	},
 	venusaurite: {
-		name: "Venusaurita X",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Venusaur en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	victreebelite: {
-		name: "Victreebelita",
+		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Victreebel en combate.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	wacanberry: {
 		name: "Baya Gualot",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Eléctrico.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	watergem: {
 		name: "Gema Agua",
-		shortDesc: "Joya de un solo uso que potencia los movimientos de tipo Agua un 50%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen5: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -2676,53 +2676,53 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	watermemory: {
 		name: "Disco Agua",
-		shortDesc: "Disco de datos que contiene información relativa al tipo Agua. Permite cambiar de tipo a Silvally.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	waterstone: {
 		name: "Piedra Agua",
 		// Official flavor text: "Curiosa piedra que hace evolucionar a determinadas especies de Pokémon. Es de color azul."
-		desc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es azul, como el agua.",
-		shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es azul, como el agua.",
+		desc: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	watmelberry: {
 		name: "Baya Sambia",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Sambia.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	waveincense: {
 		name: "Incienso Acua",
-		shortDesc: "Incienso exótico que fortalece los movimientos de tipo Agua. Debe llevarlo un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	weaknesspolicy: {
 		name: "Seguro Debilidad",
-		shortDesc: "Aumenta mucho el Atq. y el At. Esp. cuando el Pokémon que lo lleva recibe un ataque frente al cual es débil.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	wellspringmask: {
 		name: "Máscara Fuente",
-		shortDesc: "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Fuente.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	wepearberry: {
 		name: "Baya Peragu",
-		shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Peragu.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	whippeddream: {
 		name: "Dulce de Nata",
-		shortDesc: "Un dulce a base de suave y esponjosa nata montada. Sirve para evolucionar a Swirlix.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	whiteherb: {
 		name: "Hierba Blanca",
 		grammar: "fs",
-		shortDesc: "Restaura cualquier característica debilitada en combate. Solo se puede usar una vez.",
+		shortDesc: null, // NEEDS TRANSLATION
 
 		end: "  ¡La Hierba Blanca ha restaurado las características de {POKEMON}!",
 	},
 	widelens: {
 		name: "Lupa",
 		grammar: "fs",
-		shortDesc: "Debe llevarla un Pokémon. Aumenta ligeramente la precisión de los movimientos.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	wikiberry: {
 		name: "Baya Wiki",
-		shortDesc: "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión.",
+		shortDesc: null, // NEEDS TRANSLATION
 		gen7: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
@@ -2733,29 +2733,29 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	wiseglasses: {
 		name: "Gafas Especiales",
 		grammar: "fp",
-		shortDesc: "Potencian ligeramente los movimientos especiales. Debe llevarlas un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	yacheberry: {
 		name: "Baya Rimoya",
 		grammar: "fs",
-		shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Hielo.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	zapplate: {
 		name: "Tabla Trueno",
-		shortDesc: "Tabla de piedra que potencia los movimientos de tipo Eléctrico un 25%. Debe llevarla un Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	zeraorite: {
-		name: "Zeraoranita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Zeraora en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	zoomlens: {
 		name: "Telescopio",
 		grammar: "ms",
-		shortDesc: "Debe llevarlo un Pokémon. Si se mueve después del enemigo, aumenta el índice de precisión del Pokémon.",
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 	zygardite: {
-		name: "Zygardita",
-		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Zygarde en combate.",
+		name: null, // NEEDS TRANSLATION
+		shortDesc: null, // NEEDS TRANSLATION
 	},
 
 	// Gen 2 items
