@@ -45,7 +45,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[Gen 9] Añil Random Singles",
+		name: "[Gen 9] Añil Hackmons",
 		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas.`,
 		mod: 'gen9anil',
 		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause'],
