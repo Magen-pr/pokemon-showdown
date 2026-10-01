@@ -3222,7 +3222,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Teraformación 0",
 		shortDesc: null, // NEEDS TRANSLATION
 		gen9anil: {
-			name: "Teracaparazón",
+			name: "Teracaparazón Zero",
 			desc: "Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto.",
 			shortDesc: "Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto.",
 		},
