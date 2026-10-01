@@ -11,6 +11,16 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	adrenalineorb: {
+		inherit: true,
+		// Espanto triggers it too (it lowers SpA instead)
+		onAfterBoost(boost, target, source, effect) {
+			if (effect.name !== 'Intimidate' && effect.name !== 'Espanto') return;
+			const stat = effect.name === 'Espanto' ? 'spa' : 'atk';
+			if (target.boosts['spe'] === 6 || boost[stat] === 0) return;
+			target.useItem();
+		},
+	},
 	aerodactylite: {
 		inherit: true,
 		isNonstandard: null,

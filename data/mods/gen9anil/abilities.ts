@@ -25,15 +25,6 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2.5,
 		num: 10001,
 	},
-	adrenalineorb: {
-		inherit: true,
-		onAfterBoost(boost, target, source, effect) {
-			if (target.boosts['spe'] === 6) return;
-			if ((effect.name === 'Intimidate' && boost.atk) || (effect.name === 'Espanto' && boost.spa)) {
-				target.useItem();
-			}
-		},
-	},
 	camorrista: {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
