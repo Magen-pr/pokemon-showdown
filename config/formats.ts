@@ -19,6 +19,22 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// Pokémon Añil
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Pokémon Añil",
+	},
+	{
+		name: "[Gen 9] Añil OU",
+		mod: 'gen9anil',
+		ruleset: ['Standard NatDex', 'Item Clause = 1', 'Terastal Clause'],
+		banlist: [
+			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
+			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
+		],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
