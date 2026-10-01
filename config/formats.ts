@@ -26,13 +26,29 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Pokémon Añil",
 	},
 	{
-		name: "[Gen 9] Añil OU",
+		name: "[Gen 9] Añil Singles",
 		mod: 'gen9anil',
 		ruleset: ['Standard NatDex', 'Item Clause = 1', 'Terastal Clause'],
 		banlist: [
-			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
-			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
+			'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', "King's Rock", 'Quick Claw', 'Razor Fang',
+			'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
 		],
+	},
+	{
+		name: "[Gen 9] Añil Doubles",
+		mod: 'gen9anil',
+		gameType: 'doubles',
+		ruleset: ['Standard NatDex', 'Item Clause = 1', 'Terastal Clause'],
+		banlist: [
+			'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', "King's Rock", 'Quick Claw', 'Razor Fang',
+			'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
+		],
+	},
+	{
+		name: "[Gen 9] Añil Random Singles",
+		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas.`,
+		mod: 'gen9anil',
+		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Añil Custom Game",
