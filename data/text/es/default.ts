@@ -208,6 +208,7 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		endFromItem: "  ¡{POKEMON} se ha descongelado gracias {ITEM:a:definite:classified}!",
 		endFromMove: "  ¡{POKEMON} ha derretido el hielo con {MOVE}!",
 		cant: "¡{POKEMON} está congelado! No se puede mover.",
+		damage: "  ¡{POKEMON} se resiente de la congelación!",
 	},
 	par: {
 		start: "  ¡{POKEMON} sufre parálisis! Quizá no se pueda mover.",
