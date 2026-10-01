@@ -1,18 +1,18 @@
 export const DefaultText: { [id: IDEntry]: DefaultText } = {
 	default: {
-		startBattle: null, // NEEDS TRANSLATION
-		winBattle: null, // NEEDS TRANSLATION
-		tieBattle: null, // NEEDS TRANSLATION
+		startBattle: "¡Comienza el combate entre {TRAINER1} y {TRAINER2}!",
+		winBattle: "¡**{TRAINER}** ha ganado el combate!",
+		tieBattle: "¡Empate entre {TRAINER1} y {TRAINER2}!",
 
 		pokemon: "{NICKNAME}",
 		opposingPokemon: "el {NICKNAME} rival",
 		fullName: "{NICKNAME} ({SPECIES})",
 		team: "tu lado",
 		opposingTeam: "el lado rival",
-		party: null, // NEEDS TRANSLATION
-		opposingParty: null, // NEEDS TRANSLATION
+		party: "los Pokémon de tu equipo",
+		opposingParty: "los Pokémon rivales",
 
-		turn: null, // NEEDS TRANSLATION
+		turn: "== Turno {NUMBER} ==",
 		switchIn: "¡{TRAINER:definite:capitalize} saca a {FULLNAME}!",
 		switchInOwn: "¡Adelante, {FULLNAME}!",
 		switchOut: "¡{TRAINER:definite:capitalize} retira a {NICKNAME} del combate!",
@@ -30,14 +30,14 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		move: "¡{POKEMON} ha usado **{MOVE}**!",
 		abilityActivation: "[{ABILITY} de {POKEMON}]",
 
-		mega: null, // NEEDS TRANSLATION
+		mega: "  ¡{ITEM:definite:capitalize} de {POKEMON} está reaccionando a la Piedra Activadora!",
 		megaNoItem: "  ¡{POKEMON} está reaccionando a la Piedra Activadora de {TRAINER}!",
 		megaGen6: "  ¡{ITEM:definite:capitalize} de {POKEMON} reacciona a la Megapulsera de {TRAINER}!",
 		transformMega: "¡{POKEMON} ha evolucionado a Mega-{SPECIES}!",
 		primal: "¡{POKEMON} ha experimentado una Regresión Primigenia y ha recobrado su apariencia primitiva!",
 		zPower: "  ¡{POKEMON} se envuelve en un halo de Poder Z!",
 		zBroken: "  ¡{POKEMON} no se ha podido proteger del ataque y ha recibido daño!",
-		terastallize: null, // NEEDS TRANSLATION
+		terastallize: "  (¡{POKEMON} ha teracristalizado y ahora es de tipo {TYPE}!)",
 
 		// in case the different default messages didn't make it obvious, the difference
 		// is that the `cant` message REPLACES "Pokemon used Move!", while the `fail`
@@ -53,39 +53,39 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		typeChangeFromEffect: "  ¡{EFFECT} de {POKEMON} lo convirtió en el tipo {TYPE}!",
 		typeAdd: "  ¡{POKEMON} ahora también es de tipo {TYPE}!",
 
-		start: null, // NEEDS TRANSLATION
+		start: "  (¡{EFFECT} ha empezado a afectar a {POKEMON}!)",
 		end: "  ¡{POKEMON} se ha liberado de {EFFECT}!",
-		activate: null, // NEEDS TRANSLATION
-		startTeamEffect: null, // NEEDS TRANSLATION
-		endTeamEffect: null, // NEEDS TRANSLATION
-		startFieldEffect: null, // NEEDS TRANSLATION
-		endFieldEffect: null, // NEEDS TRANSLATION
+		activate: "  (¡{EFFECT} se ha activado!)",
+		startTeamEffect: "  (¡{EFFECT} ha empezado a afectar a {TEAM}!)",
+		endTeamEffect: "  (¡{EFFECT} ha dejado de afectar a {TEAM}!)",
+		startFieldEffect: "  (¡{EFFECT} ha empezado!)",
+		endFieldEffect: "  (¡{EFFECT} ha terminado!)",
 
 		changeAbility: "  ¡La habilidad de {POKEMON} ha cambiado a {ABILITY}!",
 		addItem: "  ¡{POKEMON} ha obtenido {ITEM:indefinite:classified}!",
 		takeItem: "  ¡{POKEMON} le ha robado {ITEM:indefinite:classified} a {SOURCE}!",
-		eatItem: null, // NEEDS TRANSLATION
+		eatItem: "  (¡{POKEMON} se ha comido {ITEM:definite}!)",
 		useGem: "  ¡{ITEM:definite:capitalize:classified} refuerza{INFLECT:ITEM:s=:p=n} la potencia de {MOVE}!",
 		eatItemWeaken: "  ¡El daño a {POKEMON} ha sido atenuado por {ITEM:definite:classified}!",
-		removeItem: null, // NEEDS TRANSLATION
-		activateItem: null, // NEEDS TRANSLATION
+		removeItem: "  ¡{POKEMON} ha perdido {ITEM:definite}!",
+		activateItem: "  (¡{POKEMON} ha usado {ITEM:definite}!)",
 		activateWeaken: "  ¡El daño a {POKEMON} ha sido atenuado por {ITEM:definite:classified}!",
 
 		damage: "  (¡{POKEMON} ha resultado herido!)",
-		damagePercentage: null, // NEEDS TRANSLATION
+		damagePercentage: "  (¡{POKEMON} ha perdido el {PERCENTAGE}% de sus PS!)",
 		damageFromPokemon: "  ¡{POKEMON} ha resultado herido por {ITEM:definite} de {SOURCE}!",
 		damageFromItem: "  ¡{POKEMON} ha resultado dañado por {ITEM:definite}!",
 		damageFromPartialTrapping: "  ¡{MOVE} ha herido a {POKEMON}!",
 		heal: "  ¡{POKEMON} ha recuperado PS!",
 		healFromZEffect: "  ¡{POKEMON} ha recobrado la salud gracias al Poder Z!",
-		healFromEffect: null, // NEEDS TRANSLATION
+		healFromEffect: "  ¡{POKEMON} ha recuperado PS gracias a {EFFECT}!",
 
 		boost: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado!",
 		boost2: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado mucho!",
 		boost3: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado muchísimo!",
 		boost0: "  ¡{STAT:definite:capitalize} de {POKEMON} no puede aumentar más!",
-		boostFromItem: null, // NEEDS TRANSLATION
-		boost2FromItem: null, // NEEDS TRANSLATION
+		boostFromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado gracias {ITEM:a:definite}!",
+		boost2FromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado mucho gracias {ITEM:a:definite}!",
 		boost3FromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado muchísimo gracias {ITEM:a:definite}!",
 		boostFromZEffect: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado gracias al Poder Z!",
 		boost2FromZEffect: "  ¡{STAT:definite:capitalize} de {POKEMON} ha aumentado mucho gracias al Poder Z!",
@@ -96,9 +96,9 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		unboost2: "  ¡{STAT:definite:capitalize} de {POKEMON} ha disminuido mucho!",
 		unboost3: "  ¡{STAT:definite:capitalize} de {POKEMON} ha disminuido muchísimo!",
 		unboost0: "  ¡{STAT:definite:capitalize} de {POKEMON} no puede disminuir más!",
-		unboostFromItem: null, // NEEDS TRANSLATION
-		unboost2FromItem: null, // NEEDS TRANSLATION
-		unboost3FromItem: null, // NEEDS TRANSLATION
+		unboostFromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha disminuido por {ITEM:definite}!",
+		unboost2FromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha disminuido mucho por {ITEM:definite}!",
+		unboost3FromItem: "  ¡{STAT:definite:capitalize} de {POKEMON} ha disminuido muchísimo por {ITEM:definite}!",
 
 		swapBoost: "  ¡{POKEMON} ha intercambiado los cambios en sus características con el objetivo!",
 		swapOffensiveBoost: "  ¡{POKEMON} ha intercambiado los cambios en el Ataque y el Ataque Especial con los del objetivo!",
@@ -134,62 +134,62 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		hitCount: "  N.º de golpes: {NUMBER}.",
 	},
 	ui: {
-		whatDo: null, // NEEDS TRANSLATION
-		moveTarget: null, // NEEDS TRANSLATION
-		reviveWho: null, // NEEDS TRANSLATION
-		replaceWho: null, // NEEDS TRANSLATION
-		teamStart: null, // NEEDS TRANSLATION
-		teamRest: null, // NEEDS TRANSLATION
-		chooseLead: null, // NEEDS TRANSLATION
-		chooseSlot: null, // NEEDS TRANSLATION
-		teamSoFar: null, // NEEDS TRANSLATION
-		waitingOpponent: null, // NEEDS TRANSLATION
-		cantSwitchTrapped: null, // NEEDS TRANSLATION
-		zEffectClearNegativeBoost: null, // NEEDS TRANSLATION
-		zEffectCrit2: null, // NEEDS TRANSLATION
-		zEffectHeal: null, // NEEDS TRANSLATION
-		zEffectCurse: null, // NEEDS TRANSLATION
-		zEffectRedirect: null, // NEEDS TRANSLATION
-		zEffectHealReplacement: null, // NEEDS TRANSLATION
-		flingBerry: null, // NEEDS TRANSLATION
-		flingWhiteHerb: null, // NEEDS TRANSLATION
-		flingMentalHerb: null, // NEEDS TRANSLATION
-		cantFling: null, // NEEDS TRANSLATION
-		unobtainableInGen: null, // NEEDS TRANSLATION
-		tagMoves: null, // NEEDS TRANSLATION
-		notifyMoveTitle: null, // NEEDS TRANSLATION
-		notifyMove: null, // NEEDS TRANSLATION
-		notifyMoveAgainst: null, // NEEDS TRANSLATION
-		notifySwitchTitle: null, // NEEDS TRANSLATION
-		notifySwitch: null, // NEEDS TRANSLATION
-		notifySwitchAgainst: null, // NEEDS TRANSLATION
-		notifyTeamTitle: null, // NEEDS TRANSLATION
-		notifyTeam: null, // NEEDS TRANSLATION
-		notifyTeamAgainst: null, // NEEDS TRANSLATION
-		mightBeDisabled: null, // NEEDS TRANSLATION
-		mightBeLocked: null, // NEEDS TRANSLATION
-		lockedExplanation: null, // NEEDS TRANSLATION
-		mightBeTrapped: null, // NEEDS TRANSLATION
-		autoChoice: null, // NEEDS TRANSLATION
-		unrecognizedChoice: null, // NEEDS TRANSLATION
-		lockedIntoMove: null, // NEEDS TRANSLATION
-		willUseMove: null, // NEEDS TRANSLATION
-		atTarget: null, // NEEDS TRANSLATION
-		atSlot: null, // NEEDS TRANSLATION
-		atAllyTarget: null, // NEEDS TRANSLATION
-		atAllySlot: null, // NEEDS TRANSLATION
-		actionMegaEvolve: null, // NEEDS TRANSLATION
-		actionMegaEvolveX: null, // NEEDS TRANSLATION
-		actionMegaEvolveY: null, // NEEDS TRANSLATION
-		actionUltraBurst: null, // NEEDS TRANSLATION
-		actionTerastallize: null, // NEEDS TRANSLATION
-		actionDynamax: null, // NEEDS TRANSLATION
-		actionGigantamax: null, // NEEDS TRANSLATION
-		willRevive: null, // NEEDS TRANSLATION
-		willSwitch: null, // NEEDS TRANSLATION
-		willShift: null, // NEEDS TRANSLATION
-		youPicked: null, // NEEDS TRANSLATION
-		listComma: null, // NEEDS TRANSLATION
+		whatDo: "¿Qué debería hacer **{POKEMON}**?",
+		moveTarget: "¿A quién debería dirigir {POKEMON} **{MOVE}**?",
+		reviveWho: "¿A quién debería revivir **{POKEMON}**?",
+		replaceWho: "¿Quién sustituirá a **{POKEMON}**?",
+		teamStart: "¿Cómo quieres empezar el combate?",
+		teamRest: "¿Y el resto del equipo?",
+		chooseLead: "Elige el Pokémon inicial",
+		chooseSlot: "Elige la posición {NUMBER}",
+		teamSoFar: "Equipo elegido",
+		waitingOpponent: "Esperando al rival...",
+		cantSwitchTrapped: "¡Tu Pokémon está **atrapado** y no puede cambiarse!",
+		zEffectClearNegativeBoost: "Restaura las características que hayan disminuido",
+		zEffectCrit2: "Índice de golpe crítico +2",
+		zEffectHeal: "Restaura todos los PS",
+		zEffectCurse: "Restaura todos los PS si el usuario es de tipo Fantasma; si no, Ataque +1",
+		zEffectRedirect: "Atrae hacia el usuario los ataques rivales",
+		zEffectHealReplacement: "Restaura todos los PS del Pokémon que entre en su lugar",
+		flingBerry: "Aplica al objetivo el efecto de la baya.",
+		flingWhiteHerb: "Restaura las características del objetivo que hayan disminuido.",
+		flingMentalHerb: "Libera al objetivo de Atracción, Anulación, Otra Vez, Anticura, Mofa y Tormento.",
+		cantFling: "Este objeto no se puede usar con Lanzamiento.",
+		unobtainableInGen: "No disponible en la generación {NUMBER}",
+		tagMoves: "Movimientos {TAG}",
+		notifyMoveTitle: "¡Te toca!",
+		notifyMove: "Elige movimiento en tu combate",
+		notifyMoveAgainst: "Elige movimiento en tu combate contra {OPPONENT}",
+		notifySwitchTitle: "¡Te toca cambiar!",
+		notifySwitch: "Elige un Pokémon en tu combate",
+		notifySwitchAgainst: "Elige un Pokémon en tu combate contra {OPPONENT}",
+		notifyTeamTitle: "¡Vista previa del equipo!",
+		notifyTeam: "Elige el orden de tu equipo en tu combate",
+		notifyTeamAgainst: "Elige el orden de tu equipo en tu combate contra {OPPONENT}",
+		mightBeDisabled: "¡Es **posible** que tengas algún movimiento anulado, así que no podrás cancelar el ataque!",
+		mightBeLocked: "Es **posible** que estés obligado a repetir un movimiento.",
+		lockedExplanation: "(impide cambiar si es así)",
+		mightBeTrapped: "¡Es **posible** que estés atrapado, así que no podrás cancelar el cambio!",
+		autoChoice: "Elección automática",
+		unrecognizedChoice: "Elección no reconocida del servidor:",
+		lockedIntoMove: "{POKEMON} está obligado a repetir un movimiento.",
+		willUseMove: "{POKEMON} {ACTIONS}usará **{MOVE}**{AT}.",
+		atTarget: " contra {TARGET}",
+		atSlot: " contra la posición {NUMBER}",
+		atAllyTarget: " sobre su aliado {TARGET}",
+		atAllySlot: " sobre la posición aliada {NUMBER}",
+		actionMegaEvolve: "**megaevolucionará** y ",
+		actionMegaEvolveX: "**megaevolucionará** (X) y ",
+		actionMegaEvolveY: "**megaevolucionará** (Y) y ",
+		actionUltraBurst: "usará el **Ultraestallido** y ",
+		actionTerastallize: "teracristalizará (**{TYPE}**) y ",
+		actionDynamax: "usará el **Dinamax** y ",
+		actionGigantamax: "usará el **Gigamax** y ",
+		willRevive: "{POKEMON} revivirá a **{TARGET}**.",
+		willSwitch: "{POKEMON} se cambiará por **{TARGET}**.",
+		willShift: "{POKEMON} se **desplazará** al centro.",
+		youPicked: "Has elegido a {POKEMON}.",
+		listComma: ", ",
 	},
 
 	// statuses
@@ -283,8 +283,8 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		start: "  ¡{POKEMON} ya no puede escapar!",
 	},
 	dynamax: {
-		start: null, // NEEDS TRANSLATION
-		end: null, // NEEDS TRANSLATION
+		start: "  (¡{POKEMON} se ha dinamizado!)",
+		end: "  (¡{POKEMON} ha vuelto a la normalidad!)",
 		block: "  ¡La energía Dinamax ha bloqueado el movimiento!",
 		fail: "  {POKEMON} ha negado con la cabeza. Parece que no puede usar ese movimiento.",
 	},

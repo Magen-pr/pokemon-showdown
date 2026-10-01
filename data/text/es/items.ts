@@ -132,6 +132,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alakazam en combate.",
 		},
 	},
+	alcremita: {
+		name: "Alcremita",
+		grammar: "fs",
+	},
 	aloraichiumz: {
 		name: "Alo-Raistal Z",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -359,6 +363,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blastoise en combate.",
 		},
 	},
+	blastoisitay: {
+		name: "Blastoisita Y",
+		grammar: "fs",
+	},
 	blazikenite: {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
@@ -452,6 +460,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Fuego.",
 		},
 	},
+	butterfreeita: {
+		name: "Butterfreeita",
+		grammar: "fs",
+	},
 	cameruptite: {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
@@ -469,6 +481,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Batería de usar y tirar que sube el Ataque de quien la lleva cuando recibe un golpe de tipo Eléctrico.",
 			shortDesc: "Batería de usar y tirar que sube el Ataque de quien la lleva cuando recibe un golpe de tipo Eléctrico.",
 		},
+	},
+	centiskorchita: {
+		name: "Centiskorchita",
+		grammar: "fs",
 	},
 	chandelurite: {
 		name: null, // NEEDS TRANSLATION
@@ -630,6 +646,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Lucha.",
 		},
 	},
+	cinderecita: {
+		name: "Cinderecita",
+		grammar: "fs",
+	},
 	clawfossil: {
 		name: "Fósil Garra",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -666,6 +686,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Confite con forma de trébol. Permite evolucionar a Milcery.",
 		},
 	},
+	coalossalita: {
+		name: "Coalossalita",
+		grammar: "fs",
+	},
 	cobaberry: {
 		name: "Baya Kouba",
 		grammar: "fs",
@@ -684,6 +708,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Siniestro.",
 		},
 	},
+	copperajita: {
+		name: "Copperajita",
+		grammar: "fs",
+	},
 	cornerstonemask: {
 		name: "Máscara Cimiento",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -699,6 +727,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Si la plantas en tierra suelta, saldrá una planta de Mais.",
 			shortDesc: "Si la plantas en tierra suelta, saldrá una planta de Mais.",
 		},
+	},
+	corvinightita: {
+		name: "Corvinightita",
+		grammar: "fs",
 	},
 	coverfossil: {
 		name: "Fósil Tapa",
@@ -975,6 +1007,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
 	},
+	drednawita: {
+		name: "Drednawita",
+		grammar: "fs",
+	},
 	dubiousdisc: {
 		name: "Disco Extraño",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -982,6 +1018,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Dispositivo transparente que contiene datos misteriosos. Permite evolucionar a Porygon2.",
 			shortDesc: "Dispositivo transparente que contiene datos misteriosos. Permite evolucionar a Porygon2.",
 		},
+	},
+	duraludonita: {
+		name: "Duraludonita",
+		grammar: "fs",
 	},
 	durinberry: {
 		name: "Baya Rudion",
@@ -1026,6 +1066,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eelektross en combate.",
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eelektross en combate.",
 		},
+	},
+	eeveeita: {
+		name: "Eeveeita",
+		grammar: "fs",
 	},
 	eeviumz: {
 		name: "Eeveestal Z",
@@ -1291,6 +1335,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Tabla de piedra que potencia los movimientos de tipo Fuego un 25%. Debe llevarla un Pokémon.",
 		},
 	},
+	flappletunita: {
+		name: "Flappletunita",
+		grammar: "fs",
+	},
 	floatstone: {
 		name: "Piedra Pómez",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -1461,6 +1509,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Si la lleva un Pokémon, le subirá la Defensa en un momento de apuro.",
 		},
 	},
+	garbodorita: {
+		name: "Garbodorita",
+		grammar: "fs",
+	},
 	garchompite: {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
@@ -1490,8 +1542,16 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gardevoir en combate.",
 		},
 	},
+	gengaritax: {
+		name: "Gengarita X",
+		grammar: "fs",
+	},
+	gengaritay: {
+		name: "Gengarita Y",
+		grammar: "fs",
+	},
 	gengarite: {
-		name: null, // NEEDS TRANSLATION
+		name: "Gengarita",
 		grammar: "fs",
 		shortDesc: null, // NEEDS TRANSLATION
 	},
@@ -1618,6 +1678,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Defensa Especial.",
 		},
 	},
+	grimmsnarlita: {
+		name: "Grimmsnarlita",
+		grammar: "fs",
+	},
 	gripclaw: {
 		name: "Garra Garfio",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -1698,6 +1762,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		gen3: {
 			shortDesc: null, // NEEDS TRANSLATION
 		},
+	},
+	hatterenita: {
+		name: "Hatterenita",
+		grammar: "fs",
 	},
 	hawluchanite: {
 		name: null, // NEEDS TRANSLATION
@@ -1873,6 +1941,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Tabla de piedra que potencia los movimientos de tipo Bicho un 25%. Debe llevarla un Pokémon.",
 		},
 	},
+	inteleonita: {
+		name: "Inteleonita",
+		grammar: "fs",
+	},
 	ironball: {
 		name: "Bola Férrea",
 		grammar: "fs",
@@ -1908,6 +1980,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una mandíbula.",
 			shortDesc: "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una mandíbula.",
 		},
+	},
+	jumplufita: {
+		name: "Jumplufita",
+		grammar: "fs",
 	},
 	kangaskhanite: {
 		name: null, // NEEDS TRANSLATION
@@ -1953,6 +2029,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Si la usas en un Pokémon te ganas su amistad, pero reduces su Ataque.",
 		},
 	},
+	kinglerita: {
+		name: "Kinglerita",
+		grammar: "fs",
+	},
 	kingsrock: {
 		name: "Roca del Rey",
 		grammar: "fs",
@@ -1983,6 +2063,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Si la lleva un Pokémon, sube su capacidad de dar un golpe crítico en un apuro.",
 			shortDesc: "Si la lleva un Pokémon, sube su capacidad de dar un golpe crítico en un apuro.",
 		},
+	},
+	laprasita: {
+		name: "Laprasita",
+		grammar: "fs",
 	},
 	latiasite: {
 		name: null, // NEEDS TRANSLATION
@@ -2232,6 +2316,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	lycaniumz: {
 		name: "Lycanrostal Z",
 		shortDesc: null, // NEEDS TRANSLATION
+	},
+	machampita: {
+		name: "Machampita",
+		grammar: "fs",
 	},
 	machobrace: {
 		name: "Brazal Firme",
@@ -2686,6 +2774,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Los Pokémon pueden usarla o llevarla para restaurar 10 PS.",
 		},
 	},
+	orbeetleita: {
+		name: "Orbeetleita",
+		grammar: "fs",
+	},
 	ovalstone: {
 		name: "Piedra Oval",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -2759,6 +2851,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pidgeot en combate.",
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pidgeot en combate.",
 		},
+	},
+	pikachuita: {
+		name: "Pikachuita",
+		grammar: "fs",
 	},
 	pikaniumz: {
 		name: "Pikastal Z",
@@ -3150,6 +3246,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Confite con forma de lazo. Permite evolucionar a Milcery.",
 		},
 	},
+	rillabomita: {
+		name: "Rillabomita",
+		grammar: "fs",
+	},
 	rindoberry: {
 		name: "Baya Tamar",
 		grammar: "fs",
@@ -3325,6 +3425,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Salamence en combate.",
 			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Salamence en combate.",
 		},
+	},
+	sandacondita: {
+		name: "Sandacondita",
+		grammar: "fs",
 	},
 	sceptilite: {
 		name: null, // NEEDS TRANSLATION
@@ -3554,6 +3658,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Prolonga la duración del movimiento Tormenta Arena que use el Pokémon que la lleva.",
 		},
 	},
+	snorlaxita: {
+		name: "Snorlaxita",
+		grammar: "fs",
+	},
 	snorliumz: {
 		name: "Snorlastal Z",
 		shortDesc: null, // NEEDS TRANSLATION
@@ -3755,6 +3863,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es roja como el sol.",
 		},
 	},
+	supermineralevolutivo: {
+		name: "Supermineral Evolutivo",
+		grammar: "ms",
+	},
 	swampertite: {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
@@ -3780,6 +3892,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Curiosa manzana recubierta de sirope que permite evolucionar a Applin.",
 			shortDesc: "Curiosa manzana recubierta de sirope que permite evolucionar a Applin.",
 		},
+	},
+	tablanormal: {
+		name: "Tabla Normal",
+		grammar: "fs",
 	},
 	tamatoberry: {
 		name: "Baya Tamate",
@@ -3879,6 +3995,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Tabla de piedra que potencia los movimientos de tipo Veneno un 25%. Debe llevarla un Pokémon.",
 			shortDesc: "Tabla de piedra que potencia los movimientos de tipo Veneno un 25%. Debe llevarla un Pokémon.",
 		},
+	},
+	toxtricitita: {
+		name: "Toxtricitita",
+		grammar: "fs",
 	},
 	tr00: {
 		name: "DT00",
@@ -4345,6 +4465,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		gen8: {
 			desc: null, // NEEDS TRANSLATION
 		},
+	},
+	venusauritay: {
+		name: "Venusaurita Y",
+		grammar: "fs",
 	},
 	venusaurite: {
 		name: null, // NEEDS TRANSLATION
