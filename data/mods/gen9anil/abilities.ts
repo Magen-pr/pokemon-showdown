@@ -25,6 +25,25 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2.5,
 		num: 10001,
 	},
+	albino: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice') return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, attacker, defender, move) {
+			if (move.type === 'Ice') return this.chainModify(1.5);
+		},
+		flags: {},
+		name: "Albino",
+		shortDesc: "Potencia un 50% los movimientos de tipo Hielo.",
+		rating: 3.5,
+		num: 10014,
+	},
+	auraguard: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	camorrista: {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
@@ -39,6 +58,29 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2,
 		num: 10002,
 		shortDesc: "Sube el poder de las patadas un 20%.",
+	},
+	coleptero: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Bug') return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, attacker, defender, move) {
+			if (move.type === 'Bug') return this.chainModify(1.5);
+		},
+		flags: {},
+		name: "Coleóptero",
+		shortDesc: "Potencia un 50% los movimientos de tipo Bicho.",
+		rating: 3.5,
+		num: 10015,
+	},
+	dragonize: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	eelevate: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	emergencyexit: {
 		onModifyMove(move, pokemon) {
@@ -69,6 +111,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 3,
 		num: 10003,
 		shortDesc: "Espanta al rival y reduce su Atq. Especial.",
+	},
+	firemane: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	floracin: {
 		onModifyAtkPriority: 5,
@@ -105,6 +151,33 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 3.5,
 		num: 55,
 	},
+	iceberg: {
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'recoil') {
+				if (!this.activeMove) throw new Error("Battle.activeMove is null");
+				if (this.activeMove.id !== 'struggle') return null;
+			}
+		},
+		flags: {},
+		name: "Iceberg",
+		rating: 3,
+		num: 10016,
+	},
+	inflamable: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, attacker, defender, move) {
+			if (move.type === 'Fire') return this.chainModify(1.5);
+		},
+		flags: {},
+		name: "Inflamable",
+		shortDesc: "Potencia un 50% los movimientos de tipo Fuego.",
+		rating: 3.5,
+		num: 10017,
+	},
 	innerfocus: {
 		inherit: true,
 		onTryBoost(boost, target, source, effect) {
@@ -135,6 +208,18 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2,
 		num: 204,
 	},
+	megasol: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	mountaineer: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	noability: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	oblivious: {
 		inherit: true,
 		onTryBoost(boost, target, source, effect) {
@@ -161,6 +246,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			}
 		},
 	},
+	persistent: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	pielherbcea: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
@@ -182,6 +271,31 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 4,
 		num: 10007,
 		shortDesc: "Convierte los movimientos de tipo Normal en Planta y los potencia.",
+	},
+	pielttrica: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && (!noModifyType.includes(move.id) || this.activeMove?.isMax) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Ghost';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		flags: {},
+		name: "Piel Tétrica",
+		rating: 4,
+		num: 10018,
+	},
+	piercingdrill: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	poderglido: {
 		onModifySpe(spe, pokemon) {
@@ -268,6 +382,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		num: 10009,
 		shortDesc: "Recibe bonus de daño del 50% atacando con todos los tipos.",
 	},
+	rebound: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	rivalry: {
 		onBasePowerPriority: 24,
 		onBasePower(basePower, attacker, defender, move) {
@@ -322,6 +440,10 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 2,
 		num: 10011,
 		shortDesc: "Potencia los movimientos de tipo Eléctrico del Pokémon en un 50% cuando tenga 1/3 o menos de sus PS máximos.",
+	},
+	spicyspray: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	synchronize: {
 		onAfterSetStatus(status, target, source, effect) {

@@ -45,11 +45,19 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alcremie en combate.",
 	},
+	aloraichiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	altarianite: {
 		inherit: true,
 		isNonstandard: null,
 	},
 	ampharosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	armorfossil: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -73,6 +81,26 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	belueberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	berry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	berryjuice: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	berserkgene: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	bitterberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	blastoisinite: {
 		inherit: true,
 		isNonstandard: null,
@@ -92,6 +120,38 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	blazikenite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	blueorb: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	blukberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	bottlecap: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	buggem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	buginiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	bugmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	burndrive: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	burntberry: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	butterfreeita: {
 		name: "Butterfreeita",
@@ -133,7 +193,15 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	cherishball: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	chesnaughtite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	chilldrive: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -152,6 +220,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 10126,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Cinderace en combate.",
+	},
+	clawfossil: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	clefablite: {
 		inherit: true,
@@ -181,6 +253,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Copperajah en combate.",
 	},
+	cornnberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	corvinightita: {
 		name: "Corvinightita",
 		spritenum: 608,
@@ -193,11 +269,43 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Corvinight en combate.",
 	},
+	coverfossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	crabominite: {
 		inherit: true,
 		isNonstandard: null,
 	},
+	crucibellite: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	darkgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	darkiniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	darkmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	darkranite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	decidiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	deepseascale: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deepseatooth: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -206,6 +314,14 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		isNonstandard: null,
 	},
 	diancite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	domefossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	dousedrive: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -219,7 +335,19 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	dragongem: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	dragoninite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	dragoniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	dragonmemory: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -257,6 +385,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Duraludon en combate.",
 	},
+	durinberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	earthplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
@@ -279,11 +411,39 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eevee en combate.",
 	},
+	eeviumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	electricgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	electricmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	electriumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	emboarite: {
 		inherit: true,
 		isNonstandard: null,
 	},
 	excadrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fairiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	fairygem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fairymemory: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -294,6 +454,30 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	feraligite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	fightinggem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fightingmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fightiniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	firegem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	firememory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	firiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	fistplate: {
 		inherit: true,
@@ -323,7 +507,39 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	flyinggem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flyingmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flyiniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	fossilizedbird: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fossilizeddino: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fossilizeddrake: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fossilizedfish: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	froslassite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fullincense: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -379,6 +595,22 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gengar en combate.",
 	},
+	gengarite: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	ghostgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ghostiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	ghostmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	glalitite: {
 		inherit: true,
 		isNonstandard: null,
@@ -387,11 +619,31 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	goldberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	goldbottlecap: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	golisopite: {
 		inherit: true,
 		isNonstandard: null,
 	},
 	golurkite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	grassgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	grassiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	grassmemory: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -410,6 +662,18 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 10119,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Grimmsnarl en combate.",
+	},
+	groundgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	groundiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	groundmemory: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	gyaradosite: {
 		inherit: true,
@@ -435,6 +699,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	helixfossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	heracronite: {
 		inherit: true,
 		isNonstandard: null,
@@ -443,11 +711,31 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	iceberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	icegem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	icememory: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	icicleplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
 			if (move && move.type === 'Ice') return this.chainModify([5120, 4096]);
 		},
+	},
+	iciumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	inciniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	insectplate: {
 		inherit: true,
@@ -472,6 +760,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onBasePower(basePower, user, target, move) {
 			if (move && move.type === 'Steel') return this.chainModify([5120, 4096]);
 		},
+	},
+	jawfossil: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	jumplufita: {
 		name: "Jumplufita",
@@ -501,6 +793,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Kingler en combate.",
 	},
+	kommoniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	laprasita: {
 		name: "Laprasita",
 		spritenum: 608,
@@ -518,6 +814,14 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		isNonstandard: null,
 	},
 	latiosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	laxincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	leek: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -544,6 +848,18 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	luckypunch: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	lunaliumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	lycaniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	machampita: {
 		name: "Machampita",
 		spritenum: 608,
@@ -556,9 +872,21 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Machamp en combate.",
 	},
+	machobrace: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	magearnite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	magostberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mail: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	malamarite: {
 		inherit: true,
@@ -567,6 +895,10 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	manectite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	marshadiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	mawilite: {
 		inherit: true,
@@ -594,6 +926,14 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	metalpowder: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mewniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	mewtwonitex: {
 		inherit: true,
 		isNonstandard: null,
@@ -602,11 +942,47 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	mimikiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	mindplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
 			if (move && move.type === 'Psychic') return this.chainModify([5120, 4096]);
 		},
+	},
+	mintberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	miracleberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	mysteryberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	nanabberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	nomelberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	normaliumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	oddincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	oldamber: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	orbeetleita: {
 		name: "Orbeetleita",
@@ -619,6 +995,24 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 10110,
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Orbeetle en combate.",
+	},
+	pamtreberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	parkball: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	pelucaregia: {
+		name: "Peluca Regia",
+		spritenum: 439,
+		fling: {
+			basePower: 30,
+		},
+		shortDesc: "Hace evolucionar a Eevee en Royaleon.",
+		num: 10003,
+		gen: 9,
 	},
 	pidgeotite: {
 		inherit: true,
@@ -636,6 +1030,22 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pikachu en combate.",
 	},
+	pikaniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	pikashuniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	pinapberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	pinkbow: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	pinsirite: {
 		inherit: true,
 		isNonstandard: null,
@@ -646,7 +1056,69 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 			if (move && move.type === 'Fairy') return this.chainModify([5120, 4096]);
 		},
 	},
+	plumaelica: {
+		name: "Pluma Eólica",
+		spritenum: 1,
+		fling: {
+			basePower: 30,
+		},
+		shortDesc: "Hace evolucionar a Eevee en Cefireon.",
+		num: 10004,
+		gen: 9,
+	},
+	plumefossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	poisongem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	poisoniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	poisonmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	polkadotbow: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	primariumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	przcureberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	psncureberry: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	psychicgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	psychicmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	psychiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	pyroarite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	quickpowder: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rabutaberry: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -655,6 +1127,14 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		isNonstandard: null,
 	},
 	raichunitey: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	razzberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	redorb: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -670,7 +1150,39 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Rillaboom en combate.",
 	},
+	rockgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rockincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rockiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	rockmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rootfossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	roseincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sablenite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sachet: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sailfossil: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -710,11 +1222,23 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	seaincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sharpedonite: {
 		inherit: true,
 		isNonstandard: null,
 	},
+	shockdrive: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	skarmorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	skullfossil: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -740,6 +1264,18 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Snorlax en combate.",
 	},
+	snorliumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	solganiumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	spelonberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	splashplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
@@ -760,15 +1296,35 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	steelgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	steeliumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	steelixite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	steelmemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	stick: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	stoneplate: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
 			if (move && move.type === 'Rock') return this.chainModify([5120, 4096]);
 		},
+	},
+	strangeball: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	supermineralevolutivo: {
 		name: "Supermineral Evolutivo",
@@ -829,7 +1385,15 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 10002,
 		gen: 9,
 	},
+	tapuniumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	tatsugirinite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	thickclub: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -851,9 +1415,413 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		gen: 9,
 		shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Toxtricity en combate.",
 	},
+	tr00: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr01: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr02: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr03: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr04: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr05: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr06: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr07: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr08: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr09: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr10: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr11: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr12: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr13: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr14: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr15: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr16: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr17: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr18: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr19: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr20: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr21: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr22: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr23: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr24: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr25: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr26: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr27: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr28: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr29: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr30: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr31: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr32: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr33: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr34: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr35: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr36: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr37: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr38: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr39: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr40: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr41: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr42: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr43: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr44: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr45: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr46: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr47: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr48: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr49: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr50: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr51: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr52: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr53: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr54: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr55: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr56: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr57: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr58: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr59: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr60: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr61: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr62: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr63: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr64: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr65: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr66: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr67: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr68: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr69: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr70: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr71: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr72: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr73: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr74: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr75: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr76: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr77: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr78: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr79: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr80: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr81: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr82: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr83: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr84: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr85: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr86: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr87: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr88: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr89: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr90: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr91: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr92: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr93: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr94: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr95: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr96: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr97: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr98: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	tr99: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
 	tyranitarite: {
 		inherit: true,
 		isNonstandard: null,
+	},
+	ultranecroziumz: {
+		inherit: true,
+		isNonstandard: "Custom",
 	},
 	venusauritay: {
 		name: "Venusaurita Y",
@@ -872,6 +1840,38 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		isNonstandard: null,
 	},
 	victreebelite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	vilevial: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	watergem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	wateriumz: {
+		inherit: true,
+		isNonstandard: "Custom",
+	},
+	watermemory: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	watmelberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	waveincense: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	wepearberry: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	whippeddream: {
 		inherit: true,
 		isNonstandard: null,
 	},

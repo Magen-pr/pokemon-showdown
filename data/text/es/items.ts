@@ -953,6 +953,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
 		shortDesc: null, // NEEDS TRANSLATION
+		gen9anil: {
+			name: "Dragonitita",
+			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Dragonite en combate.",
+			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Dragonite en combate.",
+		},
 	},
 	dragoniumz: {
 		name: "Dracostal Z",
@@ -1771,6 +1776,11 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
 		shortDesc: null, // NEEDS TRANSLATION
+		gen9anil: {
+			name: "Hawluchanita",
+			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Hawlucha en combate.",
+			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Hawlucha en combate.",
+		},
 	},
 	healball: {
 		name: "Sana Ball",
@@ -2825,6 +2835,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			shortDesc: "Los Pokémon pueden llevarla o usarla para curarse del envenenamiento.",
 		},
 	},
+	pelucaregia: {
+		name: "Peluca Regia",
+		grammar: "fs",
+	},
 	persimberry: {
 		name: "Baya Caquic",
 		grammar: "fs",
@@ -2889,6 +2903,10 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 			desc: "Tabla de piedra que potencia los movimientos de tipo Hada un 25%. Debe llevarla un Pokémon.",
 			shortDesc: "Tabla de piedra que potencia los movimientos de tipo Hada un 25%. Debe llevarla un Pokémon.",
 		},
+	},
+	plumaelica: {
+		name: "Pluma Eólica",
+		grammar: "fs",
 	},
 	plumefossil: {
 		name: "Fósil Pluma",
@@ -3153,11 +3171,21 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
 		shortDesc: null, // NEEDS TRANSLATION
+		gen9anil: {
+			name: "Raichuita X",
+			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate.",
+			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate.",
+		},
 	},
 	raichunitey: {
 		name: null, // NEEDS TRANSLATION
 		grammar: "fs",
 		shortDesc: null, // NEEDS TRANSLATION
+		gen9anil: {
+			name: "Raichuita Y",
+			desc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate.",
+			shortDesc: "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate.",
+		},
 	},
 	rarebone: {
 		name: "Hueso Raro",

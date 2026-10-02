@@ -44,18 +44,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		otherFormes: ["Alcremie-Mega"],
 		formeOrder: ["Alcremie", "Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl", "Alcremie-Mega"],
 	},
-	alcremiecaramelswirl: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremielemoncream: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremiematchacream: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
 	alcremiemega: {
 		num: 869,
 		name: "Alcremie-Mega",
@@ -71,26 +59,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		color: "White",
 		eggGroups: ["Fairy", "Amorphous"],
 		requiredItem: "Alcremita",
-	},
-	alcremiemintcream: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremierainbowswirl: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremierubycream: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremierubyswirl: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
-	},
-	alcremiesaltedcream: {
-		inherit: true,
-		abilities: { 0: "Well-Baked Body", H: "Cute Charm" },
 	},
 	alomomola: {
 		inherit: true,
@@ -234,6 +202,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: { 0: "Reckless", 1: "Adaptability", H: "Mold Breaker" },
 	},
 	basculegionf: {
+		inherit: true,
+		abilities: { 0: "Reckless", 1: "Adaptability", H: "Mold Breaker" },
+	},
+	basculin: {
+		inherit: true,
+		evos: ["Basculegion"],
+	},
+	basculinwhitestriped: {
 		inherit: true,
 		abilities: { 0: "Reckless", 1: "Adaptability", H: "Mold Breaker" },
 	},
@@ -698,10 +674,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		isNonstandard: null,
 	},
-	darmanitangalar: {
+	darmanitangalarzen: {
 		inherit: true,
-		baseStats: { hp: 105, atk: 160, def: 55, spa: 30, spd: 55, spe: 135 },
-		types: ["Ice", "Fire"],
+		abilities: { 0: "Gorilla Tactics", H: "Zen Mode" },
 	},
 	darmanitanzen: {
 		inherit: true,
@@ -723,18 +698,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: { 0: "Electric Surge", 1: "Cheek Pouch", H: "Pixilate" },
 	},
 	deerling: {
-		inherit: true,
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
-	deerlingautumn: {
-		inherit: true,
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
-	deerlingsummer: {
-		inherit: true,
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
-	deerlingwinter: {
 		inherit: true,
 		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
 	},
@@ -942,7 +905,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	electrodehisui: {
 		inherit: true,
-		baseStats: { hp: 60, atk: 50, def: 70, spa: 90, spd: 80, spe: 150 },
+		baseStats: { hp: 60, atk: 50, def: 70, spa: 80, spd: 80, spe: 150 },
 		abilities: { 0: "Grassy Surge", H: "Electric Surge" },
 	},
 	emboar: {
@@ -1060,22 +1023,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Floración", H: "Grassy Surge" },
 	},
-	flabebeblue: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	flabebeorange: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	flabebewhite: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	flabebeyellow: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
 	flamigo: {
 		inherit: true,
 		baseStats: { hp: 82, atk: 115, def: 74, spa: 75, spd: 74, spe: 90 },
@@ -1113,10 +1060,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Floración", H: "Grassy Surge" },
 	},
-	floetteblue: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
 	floetteeternal: {
 		inherit: true,
 		abilities: { 0: "Mega Launcher" },
@@ -1127,35 +1070,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: { 0: "Mega Launcher" },
 		isNonstandard: null,
 	},
-	floetteorange: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	floettewhite: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	floetteyellow: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
 	florges: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	florgesblue: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	florgesorange: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	florgeswhite: {
-		inherit: true,
-		abilities: { 0: "Floración", H: "Grassy Surge" },
-	},
-	florgesyellow: {
 		inherit: true,
 		abilities: { 0: "Floración", H: "Grassy Surge" },
 	},
@@ -1177,39 +1092,75 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		abilities: { 0: "Ice Scales", 1: "Tinted Lens", H: "Snow Warning" },
 	},
 	furfroudandy: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Dandy",
+		baseSpecies: "Furfrou",
+		forme: "Dandy",
+		color: "White",
 		types: ["Normal", "Grass"],
 	},
 	furfroudebutante: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Debutante",
+		baseSpecies: "Furfrou",
+		forme: "Debutante",
+		color: "White",
 		types: ["Normal", "Electric"],
 	},
 	furfroudiamond: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Diamond",
+		baseSpecies: "Furfrou",
+		forme: "Diamond",
+		color: "White",
 		types: ["Normal", "Rock"],
 	},
 	furfrouheart: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Heart",
+		baseSpecies: "Furfrou",
+		forme: "Heart",
+		color: "White",
 		types: ["Normal", "Fairy"],
 	},
 	furfroukabuki: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Kabuki",
+		baseSpecies: "Furfrou",
+		forme: "Kabuki",
+		color: "White",
 		types: ["Normal", "Fire"],
 	},
 	furfroulareine: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-La Reine",
+		baseSpecies: "Furfrou",
+		forme: "La Reine",
+		color: "White",
 		types: ["Normal", "Ice"],
 	},
 	furfroumatron: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Matron",
+		baseSpecies: "Furfrou",
+		forme: "Matron",
+		color: "White",
 		types: ["Normal", "Psychic"],
 	},
 	furfroupharaoh: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Pharaoh",
+		baseSpecies: "Furfrou",
+		forme: "Pharaoh",
+		color: "White",
 		types: ["Normal", "Water"],
 	},
 	furfroustar: {
-		inherit: true,
+		isCosmeticForme: true,
+		name: "Furfrou-Star",
+		baseSpecies: "Furfrou",
+		forme: "Star",
+		color: "White",
 		types: ["Normal", "Flying"],
 	},
 	furret: {
@@ -1257,10 +1208,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		isNonstandard: null,
 	},
 	gastrodon: {
-		inherit: true,
-		abilities: { 0: "Gooey", 1: "Storm Drain", H: "Sand Force" },
-	},
-	gastrodoneast: {
 		inherit: true,
 		abilities: { 0: "Gooey", 1: "Storm Drain", H: "Sand Force" },
 	},
@@ -1384,18 +1331,22 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Frisk", 1: "Competitive", H: "Espanto" },
 	},
+	gourgeist: {
+		inherit: true,
+		abilities: { 0: "Flash Fire" },
+	},
 	gourgeistlarge: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		abilities: { 0: "Flash Fire" },
 	},
 	gourgeistsmall: {
 		inherit: true,
-		baseStats: { hp: 65, atk: 90, def: 122, spa: 58, spd: 75, spe: 84 },
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		baseStats: { hp: 85, atk: 100, def: 122, spa: 58, spd: 75, spe: 54 },
+		abilities: { 0: "Flash Fire" },
 	},
 	gourgeistsuper: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		abilities: { 0: "Flash Fire" },
 	},
 	grafaiai: {
 		inherit: true,
@@ -1970,10 +1921,12 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	melmetal: {
 		inherit: true,
 		baseStats: { hp: 135, atk: 143, def: 143, spa: 65, spd: 34, spe: 80 },
+		prevo: "Meltan",
 	},
 	meltan: {
 		inherit: true,
 		baseStats: { hp: 46, atk: 65, def: 65, spa: 35, spd: 34, spe: 55 },
+		evos: ["Melmetal"],
 	},
 	meowstic: {
 		inherit: true,
@@ -2085,6 +2038,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 50, atk: 45, def: 65, spa: 100, spd: 120, spe: 90 },
 		abilities: { 0: "Technician", 1: "Filter", H: "Psychic Surge" },
+		evos: ["Mr. Rime"],
 	},
 	mrrime: {
 		inherit: true,
@@ -2264,7 +2218,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachualola: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachuamarillo: {
 		num: 25,
@@ -2291,12 +2244,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachuhoenn: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachukalos: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachulibre: {
 		inherit: true,
@@ -2324,7 +2275,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachupartner: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachuphd: {
 		inherit: true,
@@ -2341,12 +2291,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachusinnoh: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachuunova: {
 		inherit: true,
 		baseStats: { hp: 35, atk: 55, def: 30, spa: 50, spd: 40, spe: 90 },
-		abilities: { 0: "Lightning Rod" },
 	},
 	pikachuworld: {
 		inherit: true,
@@ -2392,18 +2340,22 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 60, atk: 52, def: 48, spa: 65, spd: 50, spe: 55 },
 		abilities: { 0: "Swift Swim", 1: "Cloud Nine", H: "Berserk" },
 	},
+	pumpkaboo: {
+		inherit: true,
+		abilities: { 0: "Flash Fire" },
+	},
 	pumpkaboolarge: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		abilities: { 0: "Flash Fire" },
 	},
 	pumpkaboosmall: {
 		inherit: true,
-		baseStats: { hp: 49, atk: 66, def: 70, spa: 44, spd: 55, spe: 51 },
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		baseStats: { hp: 59, atk: 66, def: 70, spa: 44, spd: 55, spe: 41 },
+		abilities: { 0: "Flash Fire" },
 	},
 	pumpkaboosuper: {
 		inherit: true,
-		abilities: { 0: "Flash Fire", 1: "Flash Fire" },
+		abilities: { 0: "Flash Fire" },
 	},
 	purugly: {
 		inherit: true,
@@ -2609,21 +2561,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 80, atk: 115, def: 70, spa: 60, spd: 70, spe: 105 },
 		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
 	},
-	sawsbuckautumn: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 115, def: 70, spa: 60, spd: 70, spe: 105 },
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
-	sawsbucksummer: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 115, def: 70, spa: 60, spd: 70, spe: 105 },
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
-	sawsbuckwinter: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 115, def: 70, spa: 60, spd: 70, spe: 105 },
-		abilities: { 0: "Chlorophyll", 1: "Sap Sipper", H: "Silvano" },
-	},
 	scatterbug: {
 		inherit: true,
 		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
@@ -2715,10 +2652,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 30, atk: 65, def: 100, spa: 50, spd: 25, spe: 50 },
 	},
 	shellos: {
-		inherit: true,
-		abilities: { 0: "Gooey", 1: "Storm Drain", H: "Sand Force" },
-	},
-	shelloseast: {
 		inherit: true,
 		abilities: { 0: "Gooey", 1: "Storm Drain", H: "Sand Force" },
 	},
@@ -3211,114 +3144,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
 	},
-	unownb: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownc: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownd: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowne: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownexclamation: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownf: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowng: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownh: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowni: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownj: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownk: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownl: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownm: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownn: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowno: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownp: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownq: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownquestion: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownr: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowns: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownt: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownu: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownv: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownw: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownx: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unowny: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
-	unownz: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 72, def: 48, spa: 80, spd: 80, spe: 48 },
-	},
 	ursaluna: {
 		inherit: true,
 		types: ["Normal", "Ground"],
@@ -3405,97 +3230,12 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
 		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
 	},
-	vivillonarchipelago: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivilloncontinental: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonelegant: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
 	vivillonfancy: {
 		inherit: true,
 		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
 		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
 	},
-	vivillongarden: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonhighplains: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonicysnow: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonjungle: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonmarine: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonmodern: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonmonsoon: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonocean: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
 	vivillonpokeball: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonpolar: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonriver: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonsandstorm: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonsavanna: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillonsun: {
-		inherit: true,
-		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
-		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
-	},
-	vivillontundra: {
 		inherit: true,
 		baseStats: { hp: 80, atk: 52, def: 50, spa: 105, spd: 90, spe: 89 },
 		abilities: { 0: "Shield Dust", 1: "Compound Eyes", H: "Tinted Lens" },
