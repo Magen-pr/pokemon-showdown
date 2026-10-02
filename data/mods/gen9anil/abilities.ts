@@ -299,9 +299,9 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 	},
 	poderglido: {
 		onModifySpe(spe, pokemon) {
-			if (['snowscape', 'hail'].includes(pokemon.effectiveWeather())) return this.chainModify(2);
+			if (['snowscape', 'hail'].includes(pokemon.effectiveWeather())) return this.chainModify(1.5);
 		},
-		// in the game this boost never triggers (it checks :HAIL instead of :Hail), but the description promises it
+		// as the description says: the game doubles Speed and never applies this (it checks :HAIL instead of :Hail)
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Ice' && ['snowscape', 'hail'].includes(attacker.effectiveWeather())) return this.chainModify(1.5);
@@ -311,7 +311,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 			if (move.type === 'Ice' && ['snowscape', 'hail'].includes(attacker.effectiveWeather())) return this.chainModify(1.5);
 		},
 		flags: {},
-		shortDesc: "Cuando nieva, duplica su Velocidad y potencia un 50% sus movimientos de tipo Hielo.",
+		shortDesc: "Cuando nieva, aumenta un 50% su Velocidad y la potencia de sus movimientos de tipo Hielo.",
 		name: "Poder Gélido",
 		rating: 3,
 		num: 10005,
