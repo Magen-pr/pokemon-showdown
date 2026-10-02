@@ -463,6 +463,15 @@ exports.autolockdown = true;
 exports.noguestsecurity = false;
 
 /**
+ * shownformatsections - only offer formats from these sections to clients,
+ *   eg. ['My Formats']. The rest still exist, they just aren't listed.
+ *   null lists every format.
+ *
+ * @type {string[] | null}
+ */
+exports.shownformatsections = null;
+
+/**
  * tourroom - specify a room to receive tournament announcements (defaults to
  * the room 'tournaments').
  * tourannouncements - announcements are only allowed in these rooms
