@@ -311,12 +311,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		inherit: true,
 		isNonstandard: null,
 	},
-	burmysandy: {
-		isNonstandard: null,
-	},
-	burmytrash: {
-		isNonstandard: null,
-	},
 	butterfree: {
 		inherit: true,
 		isNonstandard: null,
