@@ -123,21 +123,21 @@ export const TargetNames: { [id: string]: TranslationString } = {
 // from veekun/WikiDex who presumably got it from Pokédex 3D Pro
 // Stadium 2 names in comments
 export const EggGroupNames: { [id: string]: TranslationString } = {
-	Monster: null, // NEEDS TRANSLATION
-	"Water 1": null, // NEEDS TRANSLATION
-	Bug: null, // NEEDS TRANSLATION
-	Flying: null, // NEEDS TRANSLATION
-	Field: null, // NEEDS TRANSLATION
-	Fairy: null, // NEEDS TRANSLATION
-	Grass: null, // NEEDS TRANSLATION
-	"Human-Like": null, // NEEDS TRANSLATION
-	"Water 3": null, // NEEDS TRANSLATION
-	Mineral: null, // NEEDS TRANSLATION
-	Amorphous: null, // NEEDS TRANSLATION
-	"Water 2": null, // NEEDS TRANSLATION
-	Ditto: null, // NEEDS TRANSLATION
-	Dragon: null, // NEEDS TRANSLATION
-	Undiscovered: null, // NEEDS TRANSLATION
+	Monster: "Monstruo",
+	"Water 1": "Agua 1",
+	Bug: "Bicho",
+	Flying: "Volador",
+	Field: "Campo",
+	Fairy: "Hada",
+	Grass: "Planta",
+	"Human-Like": "Humanoide",
+	"Water 3": "Agua 3",
+	Mineral: "Mineral",
+	Amorphous: "Amorfo",
+	"Water 2": "Agua 2",
+	Ditto: "Ditto",
+	Dragon: "Dragón",
+	Undiscovered: "Desconocido",
 };
 
 export const ColorNames: { [id: string]: TranslationString } = {
