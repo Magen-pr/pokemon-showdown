@@ -26,6 +26,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Pokémon Añil",
 	},
 	{
+		name: "[Gen 9] Añil Random Battle",
+		desc: `Equipos aleatorios con sets competitivos y niveles equilibrados. Como mucho, una megaevoluci&oacute;n por equipo.`,
+		mod: 'gen9anil',
+		team: 'random',
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
+	},
+	{
 		name: "[Gen 9] Añil Singles",
 		mod: 'gen9anil',
 		ruleset: ['Standard NatDex', 'Item Clause = 1', 'Terastal Clause'],
