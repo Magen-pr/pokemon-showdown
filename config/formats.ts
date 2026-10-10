@@ -59,6 +59,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Gigantamax'],
 	},
 	{
+		name: "[Gen 9] Añil Hackmons Doubles",
+		desc: `Hackmons en combates dobles: cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas.`,
+		mod: 'gen9anil',
+		gameType: 'doubles',
+		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause'],
+		banlist: ['Gigantamax'],
+	},
+	{
 		name: "[Gen 9] Añil Custom Game",
 		mod: 'gen9anil',
 		searchShow: false,
