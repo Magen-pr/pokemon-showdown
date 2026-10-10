@@ -94,6 +94,10 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	bittermalice: {
+		inherit: true,
+		secondary: { chance: 30, boosts: { atk: -1 } },
+	},
 	blackholeeclipse: {
 		inherit: true,
 		isNonstandard: "Custom",
@@ -1431,5 +1435,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		isNonstandard: null,
 		basePower: 50,
 		pp: 15,
+		// the Let's Go version: always crits, no evasion boost
+		willCrit: true,
+		secondary: null,
 	},
 };
