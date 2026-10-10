@@ -224,10 +224,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	curse: {
-		inherit: true,
-		target: "self",
-	},
 	cut: {
 		inherit: true,
 		isNonstandard: null,
@@ -363,10 +359,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	feintattack: {
 		inherit: true,
 		isNonstandard: null,
-	},
-	filletaway: {
-		inherit: true,
-		target: "normal",
 	},
 	fishiousrend: {
 		inherit: true,
@@ -1343,10 +1335,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	thundershock: {
 		inherit: true,
 		basePower: 45,
-	},
-	tidyup: {
-		inherit: true,
-		target: "normal",
 	},
 	trickortreat: {
 		inherit: true,
