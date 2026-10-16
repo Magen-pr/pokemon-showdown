@@ -59,6 +59,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		type: "Grass",
 		shortDesc: "Muerde con unas fauces eficaces contra los Pokémon Bicho.",
 	},
+	aurawheel: {
+		inherit: true,
+		// Añil lets anyone use it, only Morpeko-Hangry turns it Dark
+		onTry() {},
+	},
 	aurorabeam: {
 		inherit: true,
 		basePower: 80,
