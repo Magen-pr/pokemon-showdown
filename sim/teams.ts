@@ -114,6 +114,10 @@ export interface PokemonSet {
 	 * Tera Type
 	 */
 	teraType?: string;
+	/**
+	 * Ability after Mega Evolving, for formats with Mega Ability Mod
+	 */
+	megaAbility?: string;
 }
 
 export const Teams = new class Teams {
@@ -200,12 +204,13 @@ export const Teams = new class Teams {
 			}
 
 			if (set.pokeball || set.hpType || set.gigantamax ||
-				(set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10) || set.teraType) {
+				(set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10) || set.teraType || set.megaAbility) {
 				buf += `,${set.hpType || ''}`;
 				buf += `,${this.packName(set.pokeball || '')}`;
 				buf += `,${set.gigantamax ? 'G' : ''}`;
 				buf += `,${set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10 ? set.dynamaxLevel : ''}`;
 				buf += `,${set.teraType || ''}`;
+				if (set.megaAbility) buf += `,${this.packName(set.megaAbility)}`;
 			}
 		}
 
@@ -326,9 +331,9 @@ export const Teams = new class Teams {
 			j = buf.indexOf(']', i);
 			let misc;
 			if (j < 0) {
-				if (i < buf.length) misc = buf.substring(i).split(',', 6);
+				if (i < buf.length) misc = buf.substring(i).split(',', 7);
 			} else {
-				if (i !== j) misc = buf.substring(i, j).split(',', 6);
+				if (i !== j) misc = buf.substring(i, j).split(',', 7);
 			}
 			if (misc) {
 				set.happiness = (misc[0] ? Number(misc[0]) : 255);
@@ -337,6 +342,7 @@ export const Teams = new class Teams {
 				set.gigantamax = !!misc[3];
 				set.dynamaxLevel = (misc[4] ? Number(misc[4]) : 10);
 				set.teraType = misc[5];
+				if (misc[6]) set.megaAbility = this.unpackName(misc[6], Dex.abilities);
 			}
 			if (j < 0) break;
 			i = j + 1;
@@ -391,6 +397,9 @@ export const Teams = new class Teams {
 
 		if (set.ability) {
 			out += `Ability: ${set.ability}  \n`;
+		}
+		if (set.megaAbility) {
+			out += `Mega Ability: ${set.megaAbility}  \n`;
 		}
 
 		// details
@@ -485,6 +494,9 @@ export const Teams = new class Teams {
 		} else if (line.startsWith('Ability: ')) {
 			line = line.slice(9);
 			set.ability = aggressive ? toID(line) : line;
+		} else if (line.startsWith('Mega Ability: ')) {
+			line = line.slice(14);
+			set.megaAbility = aggressive ? toID(line) : line;
 		} else if (line === 'Shiny: Yes') {
 			set.shiny = true;
 		} else if (line.startsWith('Level: ')) {
@@ -564,6 +576,7 @@ export const Teams = new class Teams {
 					set.species = sanitize(set.species);
 					set.item = sanitize(set.item);
 					set.ability = sanitize(set.ability);
+					if (set.megaAbility) set.megaAbility = sanitize(set.megaAbility);
 					set.gender = sanitize(set.gender);
 					set.nature = sanitize(set.nature);
 					const evs = { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 };

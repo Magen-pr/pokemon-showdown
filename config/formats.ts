@@ -53,17 +53,17 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Añil Hackmons",
-		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas.`,
+		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
 		mod: 'gen9anil',
-		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause'],
+		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause', 'Mega Ability Mod'],
 		banlist: ['Gigantamax'],
 	},
 	{
 		name: "[Gen 9] Añil Hackmons Doubles",
-		desc: `Hackmons en combates dobles: cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas.`,
+		desc: `Hackmons en combates dobles: cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones pueden empezar el combate ya megaevolucionadas y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
 		mod: 'gen9anil',
 		gameType: 'doubles',
-		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause'],
+		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause', 'Mega Ability Mod'],
 		banlist: ['Gigantamax'],
 	},
 	{
