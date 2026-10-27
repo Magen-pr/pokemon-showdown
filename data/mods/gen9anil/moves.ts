@@ -638,6 +638,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	hyperspacefury: {
+		inherit: true,
+		// not just Hoopa-Unbound in Añil
+		onTry() {},
+	},
 	iceball: {
 		inherit: true,
 		isNonstandard: null,
