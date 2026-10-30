@@ -17,6 +17,14 @@ New sections will be added to the bottom of the specified column.
 The column value will be ignored for repeat sections.
 */
 
+// battle-only formes that Añil Hackmons teams can start in
+const ANIL_HACKMONS_FORMES = [
+	'Aegislash-Blade', 'Castform-Rainy', 'Castform-Snowy', 'Castform-Sunny', 'Cherrim-Sunshine', 'Cramorant-Gorging',
+	'Cramorant-Gulping', 'Darmanitan-Galar-Zen', 'Darmanitan-Zen', 'Eiscue-Noice', 'Meloetta-Pirouette', 'Mimikyu-Busted',
+	'Minior-Meteor', 'Morpeko-Hangry', 'Palafin-Hero', 'Wishiwashi-School', 'Zacian-Crowned', 'Zamazenta-Crowned',
+	'Zygarde-Complete',
+];
+
 export const Formats: import('../sim/dex-formats').FormatList = [
 
 	// Pokémon Añil
@@ -53,20 +61,20 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Añil Hackmons",
-		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones y la forma Daruma de Darmanitan pueden empezar el combate ya transformadas, y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
+		desc: `Cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones y las formas de combate (Aegislash Filo, Darmanitan Daruma, Palafin Heroica...) pueden empezar el combate ya transformadas, y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
 		mod: 'gen9anil',
 		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause', 'Mega Ability Mod'],
 		banlist: ['Gigantamax'],
-		unbanlist: ['Darmanitan-Zen', 'Darmanitan-Galar-Zen'],
+		unbanlist: ANIL_HACKMONS_FORMES,
 	},
 	{
 		name: "[Gen 9] Añil Hackmons Doubles",
-		desc: `Hackmons en combates dobles: cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones y la forma Daruma de Darmanitan pueden empezar el combate ya transformadas, y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
+		desc: `Hackmons en combates dobles: cualquier Pok&eacute;mon con cualquier movimiento, habilidad y objeto. Las megaevoluciones y las formas de combate (Aegislash Filo, Darmanitan Daruma, Palafin Heroica...) pueden empezar el combate ya transformadas, y las que megaevolucionan en combate llevan su propia habilidad para la forma mega.`,
 		mod: 'gen9anil',
 		gameType: 'doubles',
 		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause', 'Terastal Clause', 'Mega Ability Mod'],
 		banlist: ['Gigantamax'],
-		unbanlist: ['Darmanitan-Zen', 'Darmanitan-Galar-Zen'],
+		unbanlist: ANIL_HACKMONS_FORMES,
 	},
 	{
 		name: "[Gen 9] Añil Custom Game",

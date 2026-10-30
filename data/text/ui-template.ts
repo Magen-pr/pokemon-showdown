@@ -197,6 +197,7 @@ export const translations: TranslationCatalog = {
 	"{LOW} to {HIGH}": null,
 	"(before stat stage changes)": null,
 	"(before external modifiers)": null,
+	"Base stats": null,
 	"<strong>{EFFECT}</strong> vs. {POKEMON}": null,
 	"Base power vs. {POKEMON}": null,
 	" or ": null,
